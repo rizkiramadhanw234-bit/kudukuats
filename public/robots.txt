@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kudukuats.my.id/sitemap.xml

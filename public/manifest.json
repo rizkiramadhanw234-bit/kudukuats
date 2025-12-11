@@ -1,0 +1,15 @@
+{
+  "name": "Rizki Ramadhan | Kudukuats",
+  "short_name": "Kudukuats",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080c16;",
+  "theme_color": "#0C1120;",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
