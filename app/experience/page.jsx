@@ -71,20 +71,20 @@ export default function Experience() {
               className="flex flex-col mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-10"
             >
               <h1
-                className="text-left text-white text-sm sm:text-xl lg:text-xl font-bold pt-6 sm:pt-8 md:pt-10"
+                className="text-left text-white text-sm sm:text-xl lg:text-xl font-bold pt-10 md:pt-15"
                 data-aos="fade-up"
               >
                 {data.h1}
               </h1>
               <h2
-                className="text-white text-xs lg:text-lg mt-1 italic"
+                className="text-cyan-400 text-xs md:text-lg mt-2 italic"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
                 {data.h2}
               </h2>
               <ul
-                className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-white text-xs md:text-[1rem] mt-2 sm:mt-3"
+                className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-white text-xs md:text-[1rem] mt-3 sm:mt-3"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >

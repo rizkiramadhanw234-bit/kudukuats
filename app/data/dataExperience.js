@@ -32,7 +32,7 @@ export const dataExperience = [
     ],
   },
   {
-    h1: "Kudukuats Project –  Kuningan Regency, Indonesia",
+    h1: "Kudukuats Project –  Kuningan, Indonesia",
     h2: "Full-Stack Web Developer – Freelance | Feb 2023 – March 2025",
     list: [
       "Built a School Registration Information System for a local institution.",
