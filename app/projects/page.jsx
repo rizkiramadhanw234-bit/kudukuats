@@ -59,7 +59,6 @@ export default function Projects() {
     );
   }, [logoApi]);
 
-
   return (
     <>
       <section className="h-screen w-full relative bg-(--bg1)">
@@ -110,15 +109,17 @@ export default function Projects() {
           >
             Web Development <span className="text-cyan-400">Projects</span>
           </h1>
-          <div className="flex flex-col items-center justify-center mt-4 sm:mt-5">
+          <div
+            className="flex flex-col items-center justify-center mt-4 sm:mt-5"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <Carousel
               setApi={setWebApi}
               opts={{
                 align: "start",
               }}
               className="w-full max-w-7xl"
-              data-aos="fade-up"
-              data-aos-delay="100"
             >
               <CarouselContent>
                 {WebDev.map((web, id) => (
