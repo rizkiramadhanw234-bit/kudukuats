@@ -32,7 +32,7 @@ export default function Navbar() {
               href={"/"}
               className={`${
                 pathname === "/" ? "text-cyan-400" : "text-white"
-              } hover:scale-110 transition duration-300 px-1`}
+              } hover:scale-105 transition duration-300 px-1`}
             >
               Home
             </Link>
@@ -40,7 +40,7 @@ export default function Navbar() {
               href={"/experience"}
               className={`${
                 pathname === "/experience" ? "text-cyan-400" : "text-white"
-              } hover:scale-110 transition duration-300 px-1`}
+              } hover:scale-105 transition duration-300 px-1`}
             >
               Experience
             </Link>
@@ -48,7 +48,7 @@ export default function Navbar() {
               href={"/projects"}
               className={`${
                 pathname === "/projects" ? "text-cyan-400" : "text-white"
-              } hover:scale-110 transition duration-300 px-1`}
+              } hover:scale-105 transition duration-300 px-1`}
             >
               Projects
             </Link>

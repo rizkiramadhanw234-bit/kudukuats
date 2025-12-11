@@ -257,7 +257,7 @@ export default function Home() {
                   key={index}
                   className="flex flex-col gap-2 items-center justify-between mt-4 sm:mt-5 w-1/4 sm:w-auto min-w-20"
                 >
-                  <data.icon className="text-cyan-400 text-3xl sm:text-4xl lg:text-5xl cursor-pointer hover:text-cyan-300 hover:scale-125 transition duration-300" />
+                  <data.icon className="text-cyan-400 text-3xl sm:text-4xl lg:text-5xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
                   <p className="text-white text-xs sm:text-sm text-center">
                     {data.p}
                   </p>

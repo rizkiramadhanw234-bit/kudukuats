@@ -20,7 +20,7 @@ export default function Footer() {
             </h2>
           </div>
 
-          <p className="text-white leading-relaxed text-sm sm:text-base md:text-lg">
+          <p className="text-white leading-relaxed text-sm sm:text-base md:text-base">
             A bespoke royal formula for unstoppable business growth. Strategy at
             core, formula as crown.
           </p>
@@ -52,20 +52,20 @@ export default function Footer() {
 
         {/* QUICK LINKS */}
         <div className="flex flex-col items-start sm:items-center lg:items-start justify-center">
-          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4">
+          <h3 className="text-lg sm:text-xl md:text-xl font-semibold mb-3 sm:mb-4">
             Quick Links
           </h3>
           <ul className="space-y-2 sm:space-y-3 text-white text-left sm:text-center lg:text-left">
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-lg">
+            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
               Home
             </li>
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-lg">
+            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
               About
             </li>
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-lg">
+            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
               Projetcs
             </li>
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-lg">
+            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
               Contact
             </li>
           </ul>
@@ -73,25 +73,25 @@ export default function Footer() {
 
         {/* CONTACT */}
         <div className="sm:col-span-2 lg:col-span-1 lg:col-start-3">
-          <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-3 sm:mb-4">
+          <h3 className="text-lg sm:text-xl md:text-xl font-semibold mb-3 sm:mb-4">
             Contact
           </h3>
           <ul className="space-y-2 sm:space-y-3 text-white">
             <div className="flex items-start sm:items-center">
               <CgMail className="text-base sm:text-xl md:text-2xl mr-1 sm:mr-2 shrink-0 mt-0.5 sm:mt-0" />
-              <li className="text-sm sm:text-base md:text-lg wrap-break-word">
+              <li className="text-sm sm:text-base md:text-base wrap-break-word">
                 Email: rizkiramadhanw234@gmail.com
               </li>
             </div>
             <div className="flex items-center">
               <FaPhone className="text-sm sm:text-base md:text-xl mr-1 sm:mr-2 shrink-0" />
-              <li className="text-sm sm:text-base md:text-lg">
+              <li className="text-sm sm:text-base md:text-base">
                 Mobile No: +62 8987982807
               </li>
             </div>
             <div className="flex items-center">
               <MdLocationPin className="mr-1 sm:mr-2 text-base sm:text-xl md:text-2xl shrink-0" />
-              <li className="text-sm sm:text-base md:text-lg">
+              <li className="text-sm sm:text-base md:text-base">
                 Kuningan, Indonesia
               </li>
             </div>
