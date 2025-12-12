@@ -238,7 +238,7 @@ export default function Home() {
           >
             <Link
               href={"/projects"}
-              className="px-4 py-2 text-white bg-cyan-400 items-center justify-center rounded-md sm:mt-8 md:mt-10 hover:bg-cyan-300 hover:scale-102 transition duration-300 text-sm sm:text-base"
+              className="px-4 py-2 text-white bg-cyan-400 items-center justify-center rounded-md sm:mt-5 md:mt-7 hover:bg-cyan-300 hover:scale-102 transition duration-300 text-sm sm:text-base"
             >
               View All Projects
             </Link>
