@@ -32,7 +32,7 @@ export default function Home() {
       id: 2,
       title: "DCK Media Webinar Site",
       image: DckWebinar,
-      p: "Next.js + TailwindCSS",
+      p: "React.js + TailwindCSS",
       link: "https://dck-landing-page.vercel.app/",
     },
     {
