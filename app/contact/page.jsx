@@ -105,7 +105,7 @@ export default function Contact() {
               <Button
                 data-aos="fade-up"
                 data-aos-delay="200"
-                className="mt-10 cursor-pointer bg-cyan-500 text-white hover:bg-cyan-400 hover:scale-101 transition duration-300"
+                className="mt-10 cursor-pointer px-3 py-5 bg-cyan-500 text-white hover:bg-cyan-400 hover:scale-101 transition duration-300"
               >
                 Let&apos;s Get Started
               </Button>

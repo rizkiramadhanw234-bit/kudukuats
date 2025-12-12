@@ -15,32 +15,32 @@ import {
 } from "@/components/ui/carousel";
 import { dataWebDev } from "../data/dataSkills";
 import { dataCompanies } from "../data/dataComapnies";
-import Project1 from "../assets/website/rri/2.jpg";
-import Project2 from "../assets/website/plastik/1.jpg";
+import Project1 from "../assets/website/plastik/1.jpg";
+import Project2 from "../assets/website/rri/2.jpg";
 import Project3 from "../assets/website/ecommerce/1.jpg";
 
 export default function Home() {
   const RecentProjects = [
     {
       id: 1,
-      title: "RRI Podacst Playlist Website",
+      title: "Plastic Movement Website",
       image: Project1,
-      p: "PHP + MySql",
-      link: "https://appmusicrricrb.net/",
+      p: "React.js + Express.js",
+      link: "https://www.plasticmvmt.com/",
     },
     {
       id: 2,
-      title: "Plastic Movement Website",
+      title: "RRI Podacst Playlist Website",
       image: Project2,
-      p: "React.js (Next.js) + Express.js",
-      link: "https://www.plasticmvmt.com/",
+      p: "PHP + MySql",
+      link: "https://appmusicrricrb.net/",
     },
     {
       id: 3,
       title: "E-Commerce Website",
       image: Project3,
-      p: "React.js (Next.js) + Express.js",
-      link: "https://rizkiramadhanw23-bit.github.io/web-demo/",
+      p: "React.js + Express.js",
+      link: "https://shopsy-ecommerce-psi.vercel.app/",
     },
   ];
 
@@ -197,7 +197,10 @@ export default function Home() {
                     className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3"
                   >
                     <div className="p-1">
-                      <Card className="h-80 sm:h-[360px] w-full flex flex-col items-center justify-center bg-(--bg2) border-cyan-500">
+                      <Card
+                        className="h-80 sm:h-[360px] w-full flex flex-col items-center justify-center bg-(--bg2)
+                       border-cyan-500"
+                      >
                         <CardContent className="flex flex-col w-full items-center justify-center p-3 sm:p-4 hover:scale-105 transition duration-300">
                           <Image
                             src={data.image}
@@ -281,32 +284,29 @@ export default function Home() {
           </h1>
 
           <div
-            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center mx-auto max-w-7xl mt-6 sm:mt-8 gap-4 sm:gap-6 md:gap-8"
+            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center mx-auto max-w-7xl mt-6 sm:mt-8 gap-2 sm:gap-6"
             data-aos="fade-up"
           >
             {dataCompanies.map((data, index) => (
               <div
                 key={index}
-                className="px-4 sm:px-6 lg:px-8 xl:px-15 py-4 sm:py-5"
+                className="px-3 sm:px-6 lg:px-8 xl:px-15 py-2 sm:py-5"
               >
-                <div className="bg-(--bg1) border border-cyan-400 flex flex-col items-center justify-center h-full p-4 sm:p-5 rounded-lg cursor-pointer shadow-lg sm:shadow-xl hover:scale-105 duration-300 min-h-[180px] sm:min-h-[200px]">
-                  <Link
-                    href={data.link}
-                    target="_blank"
-                    className="flex items-center justify-center h-full"
-                  >
+                <Link href={data.link} target="_blank">
+                  <div className="bg-(--bg1) border border-cyan-400 flex flex-col items-center justify-center min-h-[140px] sm:w-[250] sm:h-[170px] p-4 sm:p-5 rounded-lg cursor-pointer shadow-lg sm:shadow-xl hover:scale-105 duration-300">
                     <Image
                       src={data.image}
                       alt="kudukuats"
-                      className="w-32 sm:w-36 md:w-100 rounded-md max-w-full h-auto"
+                      className="w-32 sm:w-36 md:w-full rounded-md max-w-full h-auto"
                       width={160}
                       height={80}
                     />
-                  </Link>
-                  <div className="text-white text-center text-sm sm:text-md font-bold mt-3 sm:mt-4 md:mt-5">
-                    {data.name}
+
+                    <div className="text-white text-center text-sm sm:text-md font-bold mt-3 sm:mt-4 md:mt-5">
+                      {data.name}
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

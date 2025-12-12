@@ -4,6 +4,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../assets/kudukuats.png";
+import { Button } from "@/components/ui/button";
+import { Menu } from "lucide-react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { usePathname } from "next/navigation";
 
@@ -94,6 +96,7 @@ export default function Navbar() {
         </div>
       </div>
 
+      {/* Mobile menu open */}
       <div
         className={`md:hidden w-full bg-(--bg1) text-white flex flex-col transform transition-all duration-300 ease-in-out ${
           isOpen

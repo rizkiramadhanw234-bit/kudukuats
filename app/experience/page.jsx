@@ -125,7 +125,9 @@ export default function Experience() {
                   key={index}
                   className="flex flex-col gap-1 sm:gap-2 items-center justify-between mt-3 sm:mt-4 md:mt-5 w-1/4 sm:w-auto min-w-[70px] sm:min-w-20"
                 >
-                  <data.icon className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
+                  <data.icon
+                    className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300"
+                  />
                   <p className="text-white text-xs sm:text-sm text-center">
                     {data.p}
                   </p>
@@ -190,7 +192,9 @@ export default function Experience() {
                     key={index}
                     className="flex flex-col gap-1 sm:gap-2 items-center justify-between mt-3 sm:mt-4 md:mt-5 w-1/3 sm:w-auto min-w-20 sm:min-w-[90px]"
                   >
-                    <data.icon className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
+                    <data.icon
+                      className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300"
+                    />
                     <p className="text-white text-xs sm:text-sm text-center">
                       {data.p}
                     </p>
@@ -222,7 +226,9 @@ export default function Experience() {
                   key={index}
                   className="flex flex-col gap-1 sm:gap-2 items-center justify-between mt-3 sm:mt-4 md:mt-5 w-1/3 sm:w-auto min-w-20 sm:min-w-[90px]"
                 >
-                  <data.icon className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
+                  <data.icon
+                    className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300"
+                  />
                   <p className="text-white text-xs sm:text-sm text-center">
                     {data.p}
                   </p>

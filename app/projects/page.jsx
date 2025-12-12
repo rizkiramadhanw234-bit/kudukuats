@@ -129,7 +129,10 @@ export default function Projects() {
                   >
                     <div className="p-1 sm:p-2">
                       <Card className="h-85 w-full flex items-center justify-center bg-(--bg1) border-cyan-500">
-                        <CardContent className="flex flex-col items-center justify-center p-2 sm:p-3 hover:scale-105 transition duration-300">
+                        <CardContent
+                          className="flex flex-col items-center justify-center p-2 sm:p-3 hover:scale-105 
+                        transition duration-300"
+                        >
                           <Image
                             src={web.img}
                             alt={"kudukuats" || `${id + 1}`}
@@ -181,7 +184,8 @@ export default function Projects() {
           </h1>
 
           <div
-            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
+            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg 
+            lg:max-w-xl mt-4 sm:mt-5"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -232,7 +236,8 @@ export default function Projects() {
           </h1>
 
           <div
-            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
+            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg 
+            lg:max-w-xl mt-4 sm:mt-5"
             data-aos="fade-up"
             data-aos-delay="100"
           >

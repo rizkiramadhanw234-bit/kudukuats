@@ -28,7 +28,7 @@ export const dataCompanies = [
   },
   {
     image: Bhk,
-    name: "SMK Bhakti Husada Kuningan",
+    name: "SMK Bhakti Husada",
     link: "null",
   },
   {

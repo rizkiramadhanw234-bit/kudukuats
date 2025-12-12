@@ -17,6 +17,9 @@ export const metadata = {
   title: "Kudukuats",
   description:
     "Portfolio Rizki Ramadhan — Full-Stack Developer, Creative Designer.",
+  icons: {
+    icon: "/kp.png",
+  },
   keywords: [
     "Web Developer",
     "Software Engineering",

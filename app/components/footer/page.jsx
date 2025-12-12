@@ -36,7 +36,7 @@ export default function Footer() {
             </Link>
             <Link
               href="https://github.com/rizkiramadhanw234-bit"
-              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) cursor-pointer rounded-md hover:bg-white hover:text-gray-500 transition text-xs sm:text-sm md:text-base"
+              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) cursor-pointer rounded-md over:bg-white hover:text-gray-500 transition text-xs sm:text-sm md:text-base"
             >
               <FaGithub className="text-sm sm:text-base md:text-lg" /> GitHub
             </Link>
@@ -100,7 +100,9 @@ export default function Footer() {
       </div>
 
       {/* COPYRIGHT */}
-      <div className="border-t border-gray-700 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-5 md:pt-6 text-center text-white text-xs sm:text-sm md:text-base">
+      <div
+        className="border-t border-gray-700 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-5 md:pt-6 text-center text-white text-xs sm:text-sm md:text-base"
+      >
         © 2025 Muhammad Rizki Ramadhan. All rights reserved.
       </div>
     </footer>
