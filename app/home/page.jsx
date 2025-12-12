@@ -15,8 +15,8 @@ import {
 } from "@/components/ui/carousel";
 import { dataWebDev } from "../data/dataSkills";
 import { dataCompanies } from "../data/dataComapnies";
-import Project1 from "../assets/website/plastik/1.jpg";
-import Project2 from "../assets/website/rri/2.jpg";
+import Pastic from "../assets/website/plastik/1.jpg";
+import DckWebinar from "../assets/website/dck-media/dck-landing-page.jpg";
 import Project3 from "../assets/website/ecommerce/1.jpg";
 
 export default function Home() {
@@ -24,16 +24,16 @@ export default function Home() {
     {
       id: 1,
       title: "Plastic Movement Website",
-      image: Project1,
+      image: Pastic,
       p: "React.js + Express.js",
       link: "https://www.plasticmvmt.com/",
     },
     {
       id: 2,
-      title: "RRI Podacst Playlist Website",
-      image: Project2,
-      p: "PHP + MySql",
-      link: "https://appmusicrricrb.net/",
+      title: "DCK Media Webinar Site",
+      image: DckWebinar,
+      p: "Next.js + TailwindCSS",
+      link: "https://dck-landing-page.vercel.app/",
     },
     {
       id: 3,

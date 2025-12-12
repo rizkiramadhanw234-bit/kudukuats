@@ -122,9 +122,9 @@ export default function Projects() {
               className="w-full max-w-7xl"
             >
               <CarouselContent>
-                {WebDev.map((web, id) => (
+                {WebDev.map((web, index) => (
                   <CarouselItem
-                    key={id}
+                    key={index}
                     className="basis-full sm:basis-1/2 lg:basis-1/3"
                   >
                     <div className="p-1 sm:p-2">
@@ -135,7 +135,7 @@ export default function Projects() {
                         >
                           <Image
                             src={web.img}
-                            alt={"kudukuats" || `${id + 1}`}
+                            alt={"kudukuats" || `${index + 1}`}
                             className="w-100 h-full rounded-lg lg"
                           />
                           <h2 className="text-white mt-2 text-sm sm:text-md">
