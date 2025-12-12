@@ -154,8 +154,8 @@ export default function Home() {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                With over 5 years of experience in graphic design and video
-                editing, I bring a unique combination of development, IT
+                With over 5 years of experience in Graphic Design and Video
+                Editing, I bring a unique combination of development, IT
                 support, and creative skills. Proven ability to deliver
                 end-to-end projects—from UI/UX planning, workflows, and
                 development, to deployment and content creation. Comfortable
