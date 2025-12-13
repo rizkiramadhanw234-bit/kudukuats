@@ -63,7 +63,7 @@ export default function Home() {
           {/* background */}
           <Image
             src={Banner}
-            alt="kudukuats"
+            alt="kudukuats full-stack developer"
             priority
             fill
             className="object-cover opacity-50"

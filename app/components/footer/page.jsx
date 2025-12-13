@@ -56,17 +56,37 @@ export default function Footer() {
             Quick Links
           </h3>
           <ul className="space-y-2 sm:space-y-3 text-white text-left sm:text-center lg:text-left">
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
-              Home
+            <li>
+              <Link
+                href="/"
+                className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base"
+              >
+                Home
+              </Link>
             </li>
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
-              About
+            <li>
+              <Link
+                href="/experience"
+                className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base"
+              >
+                Experience
+              </Link>
             </li>
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
-              Projetcs
+            <li>
+              <Link
+                href="/projects"
+                className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base"
+              >
+                Projetcs
+              </Link>
             </li>
-            <li className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base">
-              Contact
+            <li>
+              <Link
+                href="contact"
+                className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -100,9 +120,7 @@ export default function Footer() {
       </div>
 
       {/* COPYRIGHT */}
-      <div
-        className="border-t border-gray-700 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-5 md:pt-6 text-center text-white text-xs sm:text-sm md:text-base"
-      >
+      <div className="border-t border-gray-700 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-5 md:pt-6 text-center text-white text-xs sm:text-sm md:text-base">
         © 2025 Muhammad Rizki Ramadhan. All rights reserved.
       </div>
     </footer>
