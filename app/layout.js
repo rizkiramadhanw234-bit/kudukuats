@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Kudukuats",
   description:
-    "Portfolio Muhammad Rizki Ramadhan | Kudukuats — Full-Stack Developer, Creative Designer.",
+    "Muhammad Rizki Ramadhan | Kudukuats — Full-Stack Developer, Creative Designer.",
   icons: {
     icon: "/kp.png",
   },
@@ -27,14 +27,15 @@ export const metadata = {
     "Software Engineering",
     "Full Stack Developer",
     "Frontend Developer",
+    "Backend Developer",
     "React Developer",
     "Next.js Portfolio",
     "Graphic Designer",
     "Creative Designer",
     "Digital Marketing",
     "Web Designer",
-    "Rizki Ramadhan",
-    "Kudukuas",
+    "Muhammad Rizki Ramadhan",
+    "Kudukuats",
   ],
   authors: [
     { name: "Muhammad Rizki Ramadhan", url: "https://kudukuats.my.id" },

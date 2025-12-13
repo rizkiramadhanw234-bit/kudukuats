@@ -3,7 +3,7 @@ import HomeClient from "./HomeClient";
 export const metadata = {
   title: "Kudukuats | Muhammad Rizki Ramadhan",
   description:
-    "Portfolio Rizki Ramadhan — Full-Stack Developer, Creative Designer.",
+    "Muhammad Rizki Ramadhan — Full-Stack Developer, Creative Designer.",
 
   keywords: [
     "Web Developer",
