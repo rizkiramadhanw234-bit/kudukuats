@@ -12,7 +12,7 @@ export default function Page() {
   
   React.useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 800,
       once: false,
     });
   }, []);
