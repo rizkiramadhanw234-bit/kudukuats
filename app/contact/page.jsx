@@ -86,7 +86,7 @@ export default function Contact() {
         <div className="relative h-full flex flex-col z-10 items-center justify-center">
           <h1
             className="text-center text-5xl font-bold text-white"
-            data-aos="fade-up"
+            data-aos="zoom-in"
           >
             Get In <span className="text-cyan-400">Touch</span>
           </h1>

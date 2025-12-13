@@ -79,15 +79,14 @@ export default function Home() {
             </h1>
             <h2
               className="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-3 sm:mt-4 md:mt-5 text-center"
-              data-aos="fade-up"
-              data-aos-delay="200"
+              data-aos="zoom-in"
             >
               Muhammad Rizki Ramadhan
             </h2>
             <p
               className="text-white text-base sm:text-lg ld:text-2xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 text-center px-2 sm:px-4"
               data-aos="fade-up"
-              data-aos-delay="300"
+              data-aos-delay="100"
             >
               Full-Stack Web Developer <span className="text-cyan-500">|</span>{" "}
               IT Support Specialist <span className="text-cyan-500">|</span>{" "}
@@ -118,7 +117,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center justify-center max-w-7xl mx-auto mt-8 sm:mt-10 md:mt-12 lg:mt-15 gap-10 sm:gap-12 lg:gap-20 px-4 sm:px-6 lg:px-8 pb-16 sm:pb-20">
             <div
               className="flex flex-col items-center justify-center lg:w-auto"
-              data-aos="fade-up"
+              data-aos="zoom-in"
             >
               <div className="border-2 rounded-2xl border-cyan-400 shadow-lg sm:shadow-xl lg:shadow-2xl mb-6 sm:mb-8 lg:mb-10 cursor-pointer hover:scale-102 transition duration-300 overflow-hidden">
                 <Image
@@ -178,11 +177,7 @@ export default function Home() {
           </h1>
 
           {/* Carousel Section */}
-          <div
-            className="flex flex-col items-center justify-center mt-6 sm:mt-8 md:mt-10 px-4 sm:px-6"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="flex flex-col items-center justify-center mt-6 sm:mt-8 md:mt-10 px-4 sm:px-6">
             <Carousel
               setApi={setWebApi}
               opts={{
@@ -195,6 +190,7 @@ export default function Home() {
                   <CarouselItem
                     key={id}
                     className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3"
+                    data-aos="zoom-in"
                   >
                     <div className="p-1">
                       <Card
@@ -227,7 +223,10 @@ export default function Home() {
                 ))}
               </CarouselContent>
             </Carousel>
-            <div className="text-muted-foreground py-2 text-center text-xs sm:text-sm">
+            <div
+              className="text-muted-foreground py-2 text-center text-xs sm:text-sm"
+              data-aos="zoom-in"
+            >
               Slide {webCurrent} of {webCount}
             </div>
           </div>
@@ -252,15 +251,12 @@ export default function Home() {
             >
               Tech-Stack
             </h2>
-            <div
-              className="grid grid-cols-4 mt-2 justify-center items-center sm:gap-6 lg:gap-7"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <div className="grid grid-cols-4 mt-2 justify-center items-center sm:gap-6 lg:gap-7">
               {dataWebDev.map((data, index) => (
                 <div
                   key={index}
                   className="flex flex-col gap-2 items-center justify-between mt-4 sm:mt-5 w-1/4 sm:w-auto min-w-20"
+                  data-aos="zoom-in"
                 >
                   <data.icon className="text-cyan-400 text-3xl sm:text-4xl lg:text-5xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
                   <p className="text-white text-xs sm:text-sm text-center">
@@ -283,14 +279,12 @@ export default function Home() {
             <span className="text-cyan-400">Worked With</span>
           </h1>
 
-          <div
-            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center mx-auto max-w-7xl mt-6 sm:mt-8 gap-2 sm:gap-6"
-            data-aos="fade-up"
-          >
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center mx-auto max-w-7xl mt-6 sm:mt-8 gap-2 sm:gap-6">
             {dataCompanies.map((data, index) => (
               <div
                 key={index}
                 className="px-3 sm:px-6 lg:px-8 xl:px-15 py-2 sm:py-5"
+                data-aos="zoom-in"
               >
                 <Link href={data.link} target="_blank">
                   <div className="bg-(--bg1) border border-cyan-400 flex flex-col items-center justify-center min-h-[140px] sm:w-[250] sm:h-[170px] p-4 sm:p-5 rounded-lg cursor-pointer shadow-lg sm:shadow-xl hover:scale-105 duration-300">

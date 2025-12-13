@@ -75,7 +75,7 @@ export default function Projects() {
         <div className="relative h-full flex flex-col z-10 items-center justify-center">
           <h1
             className="text-center text-4xl font-bold text-white"
-            data-aos="fade-up"
+            data-aos="zoom-in"
           >
             My <span className="text-cyan-400">Projects</span>
           </h1>

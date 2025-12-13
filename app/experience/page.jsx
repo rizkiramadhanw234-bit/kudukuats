@@ -25,7 +25,7 @@ export default function Experience() {
           <div className="relative flex flex-col z-10 items-center justify-center h-full px-4 sm:px-6 lg:px-8">
             <h1
               className="text-white font-bold text-3xl sm:text-4xl lg:text-5xl text-center"
-              data-aos="fade-up"
+              data-aos="zoom-in"
             >
               My <span className="text-cyan-400">Experience</span>
             </h1>
@@ -33,7 +33,7 @@ export default function Experience() {
             <p
               className="text-white text-sm sm:text-base lg:text-lg text-center px-4 sm:px-6 md:px-8 lg:px-20 mx-auto max-w-6xl mt-6 sm:mt-8 md:mt-10 leading-6 sm:leading-7 md:leading-8"
               data-aos="fade-up"
-              data-aos-delay="300"
+              data-aos-delay="100"
             >
               I bring a strong Computer Science foundation combined with over 5
               years of experience in graphic design and video editing allowing
@@ -48,6 +48,7 @@ export default function Experience() {
               href={"/projects"}
               className="px-4 py-2 text-white bg-cyan-400 items-center justify-center rounded-md mt-6 sm:mt-8 md:mt-10 hover:bg-cyan-300 hover:scale-101 transition-all duration-300 text-sm sm:text-base"
               data-aos="fade-up"
+              data-aos-delay="200"
             >
               See My Projects
             </Link>
@@ -60,7 +61,7 @@ export default function Experience() {
         <div className="h-full pb-12 sm:pb-16 md:pb-20 bg-(--bg2)">
           <h1
             className="text-white font-bold text-3xl md:text-4xl  text-center pt-8 sm:pt-10"
-            data-aos="fade-up"
+            data-aos="zoom-in"
           >
             Experience
           </h1>
