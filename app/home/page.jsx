@@ -193,11 +193,8 @@ export default function Home() {
                     data-aos="zoom-in"
                   >
                     <div className="p-1">
-                      <Card
-                        className="h-80 sm:h-[360px] w-full flex flex-col items-center justify-center bg-(--bg2)
-                       border-cyan-500"
-                      >
-                        <CardContent className="flex flex-col w-full items-center justify-center p-3 sm:p-4 hover:scale-105 transition duration-300">
+                      <Card className="h-80 sm:h-[360px] w-full flex flex-col items-center justify-center bg-(--bg2) border-cyan-500 ">
+                        <CardContent className="flex flex-col w-full items-center justify-center p-3 sm:p-4  hover:scale-105 transition duration-300">
                           <Image
                             src={data.image}
                             alt={"kudukuats" || `${id + 1}`}

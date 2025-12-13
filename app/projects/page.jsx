@@ -127,8 +127,7 @@ export default function Projects() {
                     <div className="p-1 sm:p-2">
                       <Card className="h-85 w-full flex items-center justify-center bg-(--bg1) border-cyan-500">
                         <CardContent
-                          className="flex flex-col items-center justify-center p-2 sm:p-3 hover:scale-105 
-                        transition duration-300"
+                          className="flex flex-col items-center justify-center p-2 sm:p-3 hover:scale-105 transition duration-300"
                         >
                           <Image
                             src={web.img}
