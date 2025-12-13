@@ -3,6 +3,7 @@ import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Navbar from "./components/navbar/page";
 import Footer from "./components/footer/page";
+import AOSProvider from "./providers/AOSProviders";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Kudukuats",
   description:
-    "Portfolio Rizki Ramadhan — Full-Stack Developer, Creative Designer.",
+    "Portfolio Muhammad Rizki Ramadhan | Kudukuats — Full-Stack Developer, Creative Designer.",
   icons: {
     icon: "/kp.png",
   },
@@ -40,18 +41,21 @@ export const metadata = {
   ],
   creator: `"Rizki Ramadhan", "Kudukuats"`,
   metadataBase: new URL("https://kudukuats.my.id"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     url: "https://kudukuats.my.id",
     title: "Kudukuats",
     description: "Web Portfolio, Full Stack Developer.",
-    images: ["/og-image.png"],
+    images: "/kp.png",
   },
   twitter: {
     card: "summary_large_image",
     title: "Portfolio Rizki Ramadhan",
     description: "Full Stack Web Developer",
-    images: ["/og-image.png"],
+    images: "/kp.png",
   },
   robots: {
     index: true,
@@ -66,7 +70,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        {children}
+        <AOSProvider>{children}</AOSProvider>
         <SpeedInsights />
         <Footer />
       </body>
