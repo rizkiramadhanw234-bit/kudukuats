@@ -101,7 +101,7 @@ export default function Projects() {
 
       {/* projects */}
       <section className="bg-(--bg2)" id="card-projects">
-        <div className="py-6 md:py-10 px-4 sm:px-6 lg:px-10">
+        <div className="py-6 md:py-10 px-4 sm:px-6 lg:px-20">
           {/* web development */}
           <h1
             className="text-white text-2xl sm:text-3xl text-center font-bold"
