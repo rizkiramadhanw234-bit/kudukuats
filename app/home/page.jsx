@@ -10,6 +10,7 @@ export const metadata = {
     "Software Engineering",
     "Full Stack Developer",
     "Frontend Developer",
+    "Backend Developer",
     "React Developer",
     "Next.js Portfolio",
     "Graphic Designer",
@@ -17,7 +18,7 @@ export const metadata = {
     "Digital Marketing",
     "Web Designer",
     "Muhammad Rizki Ramadhan",
-    "Kudukuas",
+    "Kudukuats",
   ],
   authors: [
     { name: "Muhammad Rizki Ramadhan", url: "https://kudukuats.my.id" },
