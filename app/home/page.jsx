@@ -1,7 +1,7 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Kudukuats | Portfolio Rizki Ramadhan",
+  title: "Kudukuats | Muhammad Rizki Ramadhan",
   description:
     "Portfolio Rizki Ramadhan — Full-Stack Developer, Creative Designer.",
 
@@ -16,7 +16,7 @@ export const metadata = {
     "Creative Designer",
     "Digital Marketing",
     "Web Designer",
-    "Rizki Ramadhan",
+    "Muhammad Rizki Ramadhan",
     "Kudukuas",
   ],
   authors: [
