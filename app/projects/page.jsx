@@ -109,11 +109,7 @@ export default function Projects() {
           >
             Web Development <span className="text-cyan-400">Projects</span>
           </h1>
-          <div
-            className="flex flex-col items-center justify-center mt-4 sm:mt-5"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="flex flex-col items-center justify-center mt-4 sm:mt-5">
             <Carousel
               setApi={setWebApi}
               opts={{
@@ -126,6 +122,7 @@ export default function Projects() {
                   <CarouselItem
                     key={index}
                     className="basis-full sm:basis-1/2 lg:basis-1/3"
+                    data-aos="zoom-in"
                   >
                     <div className="p-1 sm:p-2">
                       <Card className="h-85 w-full flex items-center justify-center bg-(--bg1) border-cyan-500">
@@ -168,7 +165,10 @@ export default function Projects() {
                 }
               />
             </Carousel>
-            <div className="text-muted-foreground py-2 text-center text-xs sm:text-sm">
+            <div
+              className="text-muted-foreground py-2 text-center text-xs sm:text-sm"
+              data-aos="zoom-in"
+            >
               Slide {webCurrent} of {webCount}
             </div>
           </div>
