@@ -1,7 +1,7 @@
 import ExperienceClient from "./ExperienceClient";
 
 export const metadata = {
-  title: "Experience | Kudukuats",
+  title: "Experience - Kudukuats",
   description:
     "I bring a strong Computer Science foundation combined with over 5 years of experience in graphic design and video editing allowing me to deliver complete end-to-end solutions. From UI/UX planning and workflow structuring to full-stack development, deployment, and content creation, I handle the entire process with precision. I've worked independently, collaboratively in teams, and remotely with international clients.",
 
