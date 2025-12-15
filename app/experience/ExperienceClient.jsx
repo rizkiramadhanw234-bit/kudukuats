@@ -6,23 +6,34 @@ import Image from "next/image";
 import Banner from "../assets/banner.jpg";
 import { dataExperience } from "../data/dataExperience";
 import { dataWebDev, dataTech, dataDesign, dataAdm } from "../data/dataSkills";
+import Aurora from "../providers/Aurora";
 
 export default function ExperienceClient() {
   return (
     <>
       <section>
-        <div className="h-screen w-full relative bg-(--bg1)">
+        <div className="h-screen w-full relative overflow-hidden bg-(--bg1)">
           {/* background */}
           <Image
             src={Banner}
-            alt="kudukuats"
+            alt="kudukuats full-stack developer"
             priority
             fill
-            className="object-cover opacity-50"
+            className="object-cover opacity-50 z-0"
           />
+          {/* Aurora wrapper */}
+          <div className="absolute inset-0 z-10 pointer-events-none opacity-30">
+            <Aurora
+              colorStops={["#fff", "#fff", "#fff"]}
+              blend={1}
+              amplitude={1.0}
+              speed={1}
+              className="w-full h-full"
+            />
+          </div>
 
           {/* content */}
-          <div className="relative flex flex-col z-10 items-center justify-center h-full px-4 sm:px-6 lg:px-8">
+          <div className="relative flex flex-col z-20 items-center justify-center h-full px-4 sm:px-6 lg:px-8">
             <h1
               className="text-white font-bold text-3xl sm:text-4xl lg:text-5xl text-center"
               data-aos="zoom-in"
@@ -126,9 +137,7 @@ export default function ExperienceClient() {
                   key={index}
                   className="flex flex-col gap-1 sm:gap-2 items-center justify-between mt-3 sm:mt-4 md:mt-5 w-1/4 sm:w-auto min-w-[70px] sm:min-w-20"
                 >
-                  <data.icon
-                    className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300"
-                  />
+                  <data.icon className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
                   <p className="text-white text-xs sm:text-sm text-center">
                     {data.p}
                   </p>
@@ -193,9 +202,7 @@ export default function ExperienceClient() {
                     key={index}
                     className="flex flex-col gap-1 sm:gap-2 items-center justify-between mt-3 sm:mt-4 md:mt-5 w-1/3 sm:w-auto min-w-20 sm:min-w-[90px]"
                   >
-                    <data.icon
-                      className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300"
-                    />
+                    <data.icon className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
                     <p className="text-white text-xs sm:text-sm text-center">
                       {data.p}
                     </p>
@@ -227,9 +234,7 @@ export default function ExperienceClient() {
                   key={index}
                   className="flex flex-col gap-1 sm:gap-2 items-center justify-between mt-3 sm:mt-4 md:mt-5 w-1/3 sm:w-auto min-w-20 sm:min-w-[90px]"
                 >
-                  <data.icon
-                    className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300"
-                  />
+                  <data.icon className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
                   <p className="text-white text-xs sm:text-sm text-center">
                     {data.p}
                   </p>

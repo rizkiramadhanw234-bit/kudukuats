@@ -16,6 +16,7 @@ import {
 import { WebDev } from "../../dataProjects/webDev";
 import { Designs } from "../../dataProjects/designs";
 import { LogoProjects } from "../../dataProjects/logoProjects";
+import Aurora from "../providers/Aurora";
 
 export default function ProjectsClient() {
   // handle web carousel
@@ -61,18 +62,28 @@ export default function ProjectsClient() {
 
   return (
     <>
-      <section className="h-screen w-full relative bg-(--bg1)">
+      <section className="h-screen w-full relative overflow-hidden bg-(--bg1)">
         {/* background */}
         <Image
           src={Banner}
-          alt="kudukuats"
+          alt="kudukuats full-stack developer"
           priority
           fill
-          className="object-cover opacity-50"
+          className="object-cover opacity-50 z-0"
         />
+        {/* Aurora wrapper */}
+        <div className="absolute inset-0 z-10 pointer-events-none opacity-30">
+          <Aurora
+            colorStops={["#fff", "#fff", "#fff"]}
+            blend={1}
+            amplitude={1.0}
+            speed={1}
+            className="w-full h-full"
+          />
+        </div>
 
         {/* content */}
-        <div className="relative h-full flex flex-col z-10 items-center justify-center">
+        <div className="relative h-full flex flex-col z-20 items-center justify-center">
           <h1
             className="text-center text-4xl font-bold text-white"
             data-aos="zoom-in"
@@ -126,12 +137,10 @@ export default function ProjectsClient() {
                   >
                     <div className="p-1 sm:p-2">
                       <Card className="h-85 w-full flex items-center justify-center bg-(--bg1) border-cyan-500">
-                        <CardContent
-                          className="flex flex-col items-center justify-center p-2 sm:p-3 hover:scale-105 transition duration-300"
-                        >
+                        <CardContent className="flex flex-col items-center justify-center p-2 sm:p-3 hover:scale-105 transition duration-300">
                           <Image
                             src={web.img}
-                            alt={"kudukuats" || `${index + 1}`}
+                            alt={"kudukuats full-stack developer" || `${index + 1}`}
                             className="w-100 h-full rounded-lg lg"
                           />
                           <h2 className="text-white mt-2 text-sm sm:text-md">

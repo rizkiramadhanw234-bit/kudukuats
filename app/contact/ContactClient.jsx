@@ -27,6 +27,7 @@ import {
   AlertDialogDescription,
   AlertDialogFooter,
 } from "@/components/ui/alert-dialog";
+import Aurora from "../providers/Aurora";
 
 export default function ContactClient() {
   const [open, setOpen] = React.useState(false);
@@ -72,18 +73,28 @@ export default function ContactClient() {
 
   return (
     <>
-      <section className="h-screen w-full relative bg-(--bg1)">
+      <section className="h-screen w-full relative overflow-hidden bg-(--bg1)">
         {/* background */}
         <Image
           src={Banner}
           alt="kudukuats"
           priority
           fill
-          className="object-cover opacity-50"
+          className="object-cover opacity-50 z-0"
         />
+        {/* Aurora wrapper */}
+        <div className="absolute inset-0 z-10 pointer-events-none opacity-30">
+          <Aurora
+            colorStops={["#fff", "#fff", "#fff"]}
+            blend={1}
+            amplitude={1.0}
+            speed={1}
+            className="w-full h-full"
+          />
+        </div>
 
         {/* content */}
-        <div className="relative h-full flex flex-col z-10 items-center justify-center">
+        <div className="relative h-full flex flex-col z-20 items-center justify-center">
           <h1
             className="text-center text-5xl font-bold text-white"
             data-aos="zoom-in"

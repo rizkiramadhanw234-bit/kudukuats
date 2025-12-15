@@ -18,7 +18,7 @@ import { dataCompanies } from "../data/dataComapnies";
 import Pastic from "../assets/website/plastik/1.jpg";
 import DckWebinar from "../assets/website/dck-media/dck-landing-page.jpg";
 import Project3 from "../assets/website/ecommerce/1.jpg";
-import { Heading4Icon } from "lucide-react";
+import Aurora from "../providers/Aurora";
 
 export default function HomeClient() {
   const RecentProjects = [
@@ -60,18 +60,27 @@ export default function HomeClient() {
   return (
     <>
       <section>
-        <div className="h-screen w-full relative bg-(--bg1)">
+        <div className="h-screen w-full relative overflow-hidden bg-(--bg1)">
           {/* background */}
           <Image
             src={Banner}
             alt="kudukuats full-stack developer"
             priority
             fill
-            className="object-cover opacity-50"
+            className="object-cover opacity-50 z-0"
           />
-
+          {/* Aurora wrapper */}
+          <div className="absolute inset-0 z-10 pointer-events-none opacity-30">
+            <Aurora
+              colorStops={["#fff", "#fff", "#fff"]}
+              blend={1}
+              amplitude={1.0}
+              speed={1}
+              className="w-full h-full"
+            />
+          </div>
           {/* content */}
-          <div className="relative flex flex-col z-10 items-center justify-center h-full px-4 sm:px-6 lg:px-8">
+          <div className="relative flex flex-col z-20 items-center justify-center h-full px-4 sm:px-6 lg:px-8">
             <h1
               className="text-cyan-400 font-bold text-2xl sm:text-3xl lg:text-4xl text-center"
               data-aos="fade-up"
@@ -85,7 +94,7 @@ export default function HomeClient() {
               Muhammad Rizki Ramadhan
             </h2>
             <p
-              className="text-white text-base sm:text-lg ld:text-2xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 text-center px-2 sm:px-4"
+              className="text-white text-base sm:text-lg md:text-2xl  mt-3 sm:mt-4 md:mt-5 text-center px-2 sm:px-4"
               data-aos="fade-up"
               data-aos-delay="100"
             >
