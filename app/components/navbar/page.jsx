@@ -4,8 +4,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../assets/kudukuats.png";
-import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { usePathname } from "next/navigation";
 
@@ -14,7 +12,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed right-0 top-0 left-0 z-50 bg-(--bg2)">
+    <nav className="fixed right-0 top-0 left-0 z-50 bg-(--bg2)/60 backdrop-blur-sm">
       <div className="px-4 sm:px-6 lg:px-10">
         <div className="flex items-center justify-between h-16 md:h-17">
           <Link href="/" className="shrink-0">
@@ -98,7 +96,7 @@ export default function Navbar() {
 
       {/* Mobile menu open */}
       <div
-        className={`md:hidden w-full bg-(--bg1) text-white flex flex-col transform transition-all duration-300 ease-in-out ${
+        className={`md:hidden w-full bg-transparent text-white flex flex-col transform transition-all duration-300 ease-in-out ${
           isOpen
             ? "opacity-100 max-h-screen translate-y-0"
             : "opacity-0 max-h-0 -translate-y-5 pointer-events-none overflow-hidden"
