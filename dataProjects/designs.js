@@ -28,6 +28,10 @@ import Design27 from "../app/assets/designs/27.jpg";
 import Design28 from "../app/assets/designs/28.jpg";
 import Design29 from "../app/assets/designs/29.jpg";
 import Design30 from "../app/assets/designs/30.jpg";
+import Design31 from "../app/assets/designs/31.jpg";
+import Design32 from "../app/assets/designs/32.jpg";
+import Design33 from "../app/assets/designs/33.jpg";
+import Design34 from "../app/assets/designs/34.jpg";
 
 export const Designs = [
   {
@@ -149,5 +153,21 @@ export const Designs = [
   {
     id: 30,
     img: Design30,
+  },
+  {
+    id: 31,
+    img: Design31,
+  },
+  {
+    id: 32,
+    img: Design32,
+  },
+  {
+    id: 33,
+    img: Design33,
+  },
+  {
+    id: 34,
+    img: Design34,
   },
 ];

@@ -16,6 +16,7 @@ import {
 import { WebDev } from "../../dataProjects/webDev";
 import { Designs } from "../../dataProjects/designs";
 import { LogoProjects } from "../../dataProjects/logoProjects";
+import { dataBranding } from "../../dataProjects/dataBranding";
 import Aurora from "../providers/Aurora";
 
 export default function ProjectsClient() {
@@ -59,6 +60,21 @@ export default function ProjectsClient() {
       setLogoCurrent(logoApi.selectedScrollSnap() + 1)
     );
   }, [logoApi]);
+
+  // handle branding carousel
+  const [brandingApi, setBrandingAPi] = React.useState(null);
+  const [brandingCurrent, setBrandingCurrent] = React.useState(0);
+  const [brandingCount, setBrandingCount] = React.useState(0);
+
+  React.useEffect(() => {
+    if (!brandingApi) return;
+
+    setBrandingCount(brandingApi.scrollSnapList().length);
+    setBrandingCurrent(brandingApi.selectedScrollSnap() + 1);
+    brandingApi.on("select", () =>
+      setBrandingCurrent(brandingApi.selectedScrollSnap() + 1)
+    );
+  }, [brandingApi]);
 
   return (
     <>
@@ -140,7 +156,10 @@ export default function ProjectsClient() {
                         <CardContent className="flex flex-col items-center justify-center p-2 sm:p-3 hover:scale-105 transition duration-300">
                           <Image
                             src={web.img}
-                            alt={"kudukuats full-stack developer" || `${index + 1}`}
+                            alt={
+                              "kudukuats full-stack developer" || `${index + 1}`
+                            }
+                            quality={75}
                             className="w-100 h-full rounded-lg lg"
                           />
                           <h2 className="text-white mt-2 text-sm sm:text-md">
@@ -192,8 +211,7 @@ export default function ProjectsClient() {
           </h1>
 
           <div
-            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg 
-            lg:max-w-xl mt-4 sm:mt-5"
+            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -210,6 +228,7 @@ export default function ProjectsClient() {
                         <Image
                           src={data.img}
                           alt={"kudukuats" || `${id + 1}`}
+                          quality={75}
                           className="w-100 h-55 lg:w-200 lg:h-110 rounded-xl sm:rounded-2xl"
                         />
                       </CardContent>
@@ -244,8 +263,7 @@ export default function ProjectsClient() {
           </h1>
 
           <div
-            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg 
-            lg:max-w-xl mt-4 sm:mt-5"
+            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -262,6 +280,7 @@ export default function ProjectsClient() {
                         <Image
                           src={data.img}
                           alt={"kudukuats" || `${id + 1}`}
+                          quality={75}
                           className="w-100 h-55 lg:w-200 lg:h-110 rounded-xl sm:rounded-2xl"
                         />
                       </CardContent>
@@ -282,6 +301,58 @@ export default function ProjectsClient() {
             </Carousel>
             <div className="text-muted-foreground py-2 text-center text-xs sm:text-sm">
               Slide {logoCurrent} of {logoCount}
+            </div>
+          </div>
+        </div>
+
+        {/* Branding projects */}
+        <div className="py-6 md:py-10 px-4 sm:px-6 lg:px-10">
+          <h1
+            className="text-white text-2xl sm:text-3xl text-center font-bold"
+            data-aos="fade-up"
+          >
+            Branding <span className="text-cyan-400">Projects</span>
+          </h1>
+
+          <div
+            className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <Carousel setApi={setBrandingAPi} className="w-full lg:w-200">
+              <CarouselContent>
+                {dataBranding.map((data, id) => (
+                  <CarouselItem key={id}>
+                    <Card
+                      className={
+                        "w-full h-60 lg:h-120 flex items-center justify-center bg-(--bg1) border-cyan-500"
+                      }
+                    >
+                      <CardContent className="flex items-center justify-center p-2 sm:p-3">
+                        <Image
+                          src={data.image}
+                          alt={"kudukuats" || `${id + 1}`}
+                          quality={75}
+                          className="w-100 h-55 lg:w-200 lg:h-110 rounded-xl sm:rounded-2xl"
+                        />
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious
+                className={
+                  "cursor-pointer hover:scale-110 transition duration-300 hidden sm:flex"
+                }
+              />
+              <CarouselNext
+                className={
+                  "cursor-pointer hover:scale-110 transition duration-300 hidden sm:flex"
+                }
+              />
+            </Carousel>
+            <div className="text-muted-foreground py-2 text-center text-xs sm:text-sm">
+              Slide {brandingCurrent} of {brandingCount}
             </div>
           </div>
         </div>

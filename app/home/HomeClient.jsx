@@ -67,6 +67,7 @@ export default function HomeClient() {
             alt="kudukuats full-stack developer"
             priority
             fill
+            quality={60}
             className="object-cover opacity-50 z-0"
           />
           {/* Aurora wrapper */}
@@ -134,8 +135,7 @@ export default function HomeClient() {
                   src={Me}
                   alt="full stack developer"
                   className="w-64 sm:w-72 md:w-xs max-w-full h-auto"
-                  width={320}
-                  height={320}
+                  quality={75}
                 />
               </div>
               <div
@@ -208,6 +208,7 @@ export default function HomeClient() {
                           <Image
                             src={data.image}
                             alt={"kudukuats" || `${id + 1}`}
+                            quality={75}
                             className="w-100 h-fit object-cover rounded-lg"
                           />
                           <div className="text-center text-sm sm:text-md mt-2 text-white font-medium">

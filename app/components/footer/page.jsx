@@ -29,20 +29,20 @@ export default function Footer() {
           <div className="flex flex-wrap gap-2 sm:gap-3 md:gap-4 mt-4 sm:mt-6">
             <Link
               href="https://www.linkedin.com/in/muhammad-rizki-ramadhan-5a243b349/"
-              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) rounded-md cursor-pointer hover:bg-white hover:text-gray-500 transition text-xs sm:text-sm md:text-base"
+              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) rounded-md cursor-pointer hover:bg-white hover:text-gray-500 hover:scale-105 transition duration-300"
             >
               <FaLinkedin className="text-sm sm:text-base md:text-lg" />{" "}
               LinkedIn
             </Link>
             <Link
               href="https://github.com/rizkiramadhanw234-bit"
-              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) cursor-pointer rounded-md over:bg-white hover:text-gray-500 transition text-xs sm:text-sm md:text-base"
+              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) cursor-pointer rounded-md hover:bg-white hover:text-gray-500 hover:scale-105 transition duration-300"
             >
               <FaGithub className="text-sm sm:text-base md:text-lg" /> GitHub
             </Link>
             <Link
               href="https://www.instagram.com/rizkidhan.js/"
-              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) cursor-pointer rounded-md hover:bg-white hover:text-gray-500 transition text-xs sm:text-sm md:text-base"
+              className="flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 bg-(--color2) cursor-pointer rounded-md hover:bg-white hover:text-gray-500 hover:scale-105 transition duration-300"
             >
               <FaInstagram className="text-sm sm:text-base md:text-lg" />{" "}
               Instagram
