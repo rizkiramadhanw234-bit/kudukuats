@@ -17,7 +17,7 @@ import { dataWebDev } from "../data/dataSkills";
 import { dataCompanies } from "../data/dataComapnies";
 import Pastic from "../assets/website/plastik/1.jpg";
 import DckWebinar from "../assets/website/dck-media/dck-landing-page.jpg";
-import Project3 from "../assets/website/ecommerce/1.jpg";
+import Sims from "../assets/website/sims.jpg";
 import Aurora from "../providers/Aurora";
 
 export default function HomeClient() {
@@ -31,17 +31,17 @@ export default function HomeClient() {
     },
     {
       id: 2,
+      title: "Sims PPOB Website",
+      image: Sims,
+      p: "React.js + Redux",
+      link: "https://sims-ppob-blush.vercel.app/",
+    },
+    {
+      id: 3,
       title: "DCK Media Webinar Site",
       image: DckWebinar,
       p: "React.js + TailwindCSS",
       link: "https://dck-landing-page.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "E-Commerce Website",
-      image: Project3,
-      p: "React.js + Express.js",
-      link: "https://shopsy-ecommerce-psi.vercel.app/",
     },
   ];
 
@@ -67,7 +67,6 @@ export default function HomeClient() {
             alt="kudukuats full-stack developer"
             priority
             fill
-            quality={60}
             className="object-cover opacity-50 z-0"
           />
           {/* Aurora wrapper */}
@@ -100,7 +99,6 @@ export default function HomeClient() {
               data-aos-delay="100"
             >
               Full-Stack Web Developer <span className="text-cyan-500">|</span>{" "}
-              IT Support Specialist <span className="text-cyan-500">|</span>{" "}
               Creative Designer
             </p>
 
@@ -154,9 +152,7 @@ export default function HomeClient() {
                 I’m a Full-Stack Web Developer with over 3 years of experience
                 building dynamic and responsive web applications using HTML,
                 CSS/Tailwind, JavaScript, TypeScript, React.js, Next.js, Node.js
-                (Express), and PHP. Strong technical foundation in IT Support,
-                including hardware/software troubleshooting, network
-                maintenance, and system administration.
+                (Express.js), and PHP.
               </p>
               <p
                 className="mt-4 sm:mt-5 leading-6 sm:leading-7 text-center lg:text-left"
@@ -164,12 +160,12 @@ export default function HomeClient() {
                 data-aos-delay="200"
               >
                 With over 5 years of experience in Graphic Design and Video
-                Editing, I bring a unique combination of Web Development, IT
-                support, and creative skills. Proven ability to deliver
-                end-to-end projects—from UI/UX planning, workflows, and
-                development, to deployment and content creation. Comfortable
-                working independently, collaboratively, onsite, or fully remote
-                with international clients.
+                Editing, I bring a unique combination of Web Development, and
+                creative skills. Proven ability to deliver end-to-end
+                projects—from UI/UX planning, workflows, and development, to
+                deployment and content creation. Comfortable working
+                independently, collaboratively, onsite, or fully remote with
+                international clients.
               </p>
             </div>
           </div>

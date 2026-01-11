@@ -5,6 +5,7 @@ import Vicky from "../app/assets/website/vicky_collection/home_page.jpg";
 import Rri from "../app/assets/website/rri/2.jpg";
 import Sma from "../app/assets/website/sma/landing_page.jpg";
 import DckLanding from "../app/assets/website/dck-media/dck-landing-page.jpg";
+import Sims from "../app/assets/website/sims.jpg";
 
 export const WebDev = [
   {
@@ -14,20 +15,23 @@ export const WebDev = [
     link: "https://www.plasticmvmt.com/",
   },
   {
-    id: 2,
-    img: Shopsy,
-    name: "E-commerce Website",
-    p: "React.js + Express.js",
-    link: "https://shopsy-ecommerce-psi.vercel.app/",
+    img: Sims,
+    name: "Sims PPOB Website",
+    p: "React.js + Redux",
+    link: "https://sims-ppob-blush.vercel.app/",
   },
-
   {
     img: DckLanding,
     name: "DCK Media Webinar Site",
     p: "Next.js + Tailwind CSS",
     link: "https://dck-landing-page.vercel.app/",
   },
-
+  {
+    img: Shopsy,
+    name: "E-commerce Website",
+    p: "React.js + Express.js",
+    link: "https://shopsy-ecommerce-psi.vercel.app/",
+  },
   {
     img: Vicky,
     name: "Vicky Collection",
@@ -41,7 +45,6 @@ export const WebDev = [
     p: "PHP + MySql",
     link: "https://appmusicrricrb.net/",
   },
-
   {
     img: Wedding,
     name: "Wedding Website",

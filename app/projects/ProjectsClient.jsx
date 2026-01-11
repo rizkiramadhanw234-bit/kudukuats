@@ -219,11 +219,7 @@ export default function ProjectsClient() {
               <CarouselContent>
                 {Designs.map((data, id) => (
                   <CarouselItem key={id}>
-                    <Card
-                      className={
-                        "w-full h-60 lg:h-120 flex items-center justify-center bg-(--bg1) border-cyan-500"
-                      }
-                    >
+                    <Card className="w-full h-60 lg:h-120 flex items-center justify-center bg-(--bg1) border-cyan-500">
                       <CardContent className="flex items-center justify-center p-2 sm:p-3">
                         <Image
                           src={data.img}
