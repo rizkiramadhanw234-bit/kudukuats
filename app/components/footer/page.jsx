@@ -77,7 +77,7 @@ export default function Footer() {
                 href="/projects"
                 className="hover:text-gray-200 cursor-pointer text-sm sm:text-base md:text-base"
               >
-                Projetcs
+                Projects
               </Link>
             </li>
             <li>
