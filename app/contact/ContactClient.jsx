@@ -55,7 +55,7 @@ export default function ContactClient() {
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "Application/json" },
+        headers: { "content-type": "application/json" },
         body: JSON.stringify(formData),
       });
 
