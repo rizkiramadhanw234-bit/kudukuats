@@ -1,24 +1,30 @@
 export const dataExperience = [
   {
     h1: "PT. Sinar Mulia Makmur (Newton Technologi)  –  Jakarta, Indonesia",
-    h2: "Web Developer & IT Support Specialist | Nov 2025 – Present",
+    h2: "Full-stack Web Developer & DevOps | Nov 2025 – Present",
     list: [
+      "Built a complete Printer Monitoring System from zero to production including:",
+      "Backend API (Node.js/Express) with JWT auth and MySQL database.",
+      "Windows Agent (Electron + PowerShell) for printer discovery and monitoring.",
+      "Real-time Dashboard (Next.js) with WebSocket live updates.",
+      "Implemented SNMP polling to track ink levels across network printers.",
+      "Created auto-registration system where agents self-configure using license keys.",
+      "Solved production issues including token management, WebSocket reconnection, and cross-network communication.",
+      "Containerized apps with Docker and deployed on Linux servers (Nginx, PM2).",
       "Provided IT support for hardware, software, networking, and office systems.",
-      "Developed and maintained internal web applications (PHP, JavaScript, HTML, CSS).",
-      "Automated operational processes to improve efficiency.",
-      "Managed user accounts, updates, and IT infrastructure.",
-      "Collaborated with teams to deploy new IT and web-based solutions.",
+      "Developed internal web applications (PHP, Node.Js, React.Js)."
     ],
   },
   {
     h1: "DCK Media & Business Consulting –  Kuala Lumpur, Malaysia",
-    h2: "Web Developer & Creative Designer  – Freelance (Remote Full-time) | Sep 2025 – Present",
+    h2: "Full-Stack Web Developer & Creative Designer  – Freelance (Remote Full-time) | Sep 2025 – Present",
     list: [
-      "Designed and developed company websites using Next.js, Node.js, and JavaScript.",
-      "Refurbishing product packaging designs.",
-      "Produced and edited product videos for social media platforms.",
-      "Created product listing designs, visual content, and presentation materials.",
-      "Assisted with social media content planning and branding.",
+      "Full-Stack Development: Build and maintain responsive company websites using the React.js and Node.js ecosystem (JavaScript/TypeScript).",
+      "UI/UX & Architecture: Develop reusable component libraries, manage application state, and integrate RESTful APIs to ensure design consistency.",
+      "Performance Tuning: Optimize loading speeds and Core Web Vitals through strategic code-splitting, caching, and image optimization.",
+      "Technical Collaboration: Partner with business and creative leads to translate marketing requirements into functional, user-centric features.",
+      "Process Automation: Build Node.js utilities to automate content updates and streamline internal team workflows.",
+      "Creative Support: Support brand initiatives by producing product visuals, updating packaging, and curating social media content."
     ],
   },
   {
