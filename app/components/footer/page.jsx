@@ -21,8 +21,7 @@ export default function Footer() {
           </div>
 
           <p className="text-white leading-relaxed text-sm sm:text-base md:text-base">
-            A bespoke royal formula for unstoppable business growth. Strategy at
-            core, formula as crown.
+            Break the limits.
           </p>
 
           {/* SOCIAL ICONS */}
@@ -106,7 +105,7 @@ export default function Footer() {
             <div className="flex items-center">
               <FaPhone className="text-sm sm:text-base md:text-xl mr-1 sm:mr-2 shrink-0" />
               <li className="text-sm sm:text-base md:text-base">
-                Mobile No: +62 8987982807
+                Mobile Phone: +62 898 7982 807
               </li>
             </div>
             <div className="flex items-center">

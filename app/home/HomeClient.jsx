@@ -15,33 +15,34 @@ import {
 } from "@/components/ui/carousel";
 import { dataWebDev } from "../data/dataSkills";
 import { dataCompanies } from "../data/dataComapnies";
-import Pastic from "../assets/website/plastik/1.jpg";
-import DckWebinar from "../assets/website/dck-media/dck-landing-page.jpg";
-import Sims from "../assets/website/sims.jpg";
 import Aurora from "../providers/Aurora";
+
+import MPS1 from "../assets/website/mps/dashboard.jpg"
+import MPS2 from "../assets/website/mps/client/dashboardclient.jpg"
+import MPS3 from "../assets/website/mps/electron/3.jpg"
 
 export default function HomeClient() {
   const RecentProjects = [
     {
       id: 1,
-      title: "Plastic Movement Website",
-      image: Pastic,
-      p: "React.js + Express.js",
-      link: "https://www.plasticmvmt.com/",
+      title: "Manage Print Service Admin Dashboard",
+      image: MPS1,
+      p: "Express.js + React.js + Shadcn + MySQL",
+      link: "https://mpsnewton.com",
     },
     {
       id: 2,
-      title: "Sims PPOB Website",
-      image: Sims,
-      p: "React.js + Redux",
-      link: "https://sims-ppob-blush.vercel.app/",
+      title: "Manage Print Service Client Dashboard",
+      image: MPS2,
+      p: "Express.js + React.js + MySQL",
+      link: "https://client.mpsnewton.com",
     },
     {
       id: 3,
-      title: "DCK Media Webinar Site",
-      image: DckWebinar,
-      p: "React.js + TailwindCSS",
-      link: "https://dck-landing-page.vercel.app/",
+      title: "MPS Newton Agent App Dekstop",
+      image: MPS3,
+      p: "Electron + JavaScript + Powershell",
+      link: "",
     },
   ];
 

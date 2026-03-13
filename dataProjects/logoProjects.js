@@ -4,8 +4,13 @@ import Logo3 from "../app/assets/logo/3.jpg";
 import Logo4 from "../app/assets/logo/4.jpg";
 import Logo5 from "../app/assets/logo/5.jpg";
 import Logo6 from "../app/assets/logo/6.jpg";
+import Logo7 from "../app/assets/logo/7.jpg";
 
 export const LogoProjects = [
+  {
+    id: 0,
+    img: Logo7,
+  },
   {
     id: 1,
     img: Logo1,

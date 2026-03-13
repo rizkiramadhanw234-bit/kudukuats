@@ -6,8 +6,29 @@ import Rri from "../app/assets/website/rri/2.jpg";
 import Sma from "../app/assets/website/sma/landing_page.jpg";
 import DckLanding from "../app/assets/website/dck-media/dck-landing-page.jpg";
 import Sims from "../app/assets/website/sims.jpg";
+import Mps1 from "../app/assets/website/mps/dashboard.jpg";
+import MpsElectron from "../app/assets/website/mps/electron/3.jpg"
+import MpsClient from "../app/assets/website/mps/client/dashboardclient.jpg"
 
 export const WebDev = [
+  {
+    img: Mps1,
+    name: "Manage Print Service Admin Dashboard",
+    p: "Express.js + React.js + Shadcn + MySql",
+    link: "https://mpsnewton.com",
+  },
+  {
+    img: MpsElectron,
+    name: "MPS Newton Agent App Dekstop",
+    p: "JavaScript + Electron + Powershell",
+    link: ""
+  },
+  {
+    img: MpsClient,
+    name: "Manage Print Service Client Dashboard",
+    p: "React.js + Express.js + MySql",
+    link: "https://client.mpsnewton.com",
+  },
   {
     img: Plastic,
     name: "Plastic Website",
