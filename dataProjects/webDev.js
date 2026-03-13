@@ -54,17 +54,16 @@ export const WebDev = [
     link: "https://shopsy-ecommerce-psi.vercel.app/",
   },
   {
-    img: Vicky,
-    name: "Vicky Collection",
-    p: "PHP + MySql",
-    link: "https://drive.google.com/file/d/17HJG8YzmTnNX0pWb9Q6LUWHQhR2jMtXb/view",
-  },
-
-  {
     img: Rri,
     name: "RRI Website",
     p: "PHP + MySql",
     link: "https://appmusicrricrb.net/",
+  },
+  {
+    img: Vicky,
+    name: "Vicky Collection Store",
+    p: "PHP + MySql",
+    link: "https://drive.google.com/file/d/17HJG8YzmTnNX0pWb9Q6LUWHQhR2jMtXb/view",
   },
   {
     img: Wedding,
