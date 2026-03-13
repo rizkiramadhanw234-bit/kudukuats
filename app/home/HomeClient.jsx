@@ -39,7 +39,7 @@ export default function HomeClient() {
     },
     {
       id: 3,
-      title: "MPS Newton Agent App Dekstop",
+      title: "MPS Newton Agent Dekstop App",
       image: MPS3,
       p: "Electron + JavaScript + Powershell",
       link: "",

@@ -19,7 +19,7 @@ export const WebDev = [
   },
   {
     img: MpsElectron,
-    name: "MPS Newton Agent App Dekstop",
+    name: "MPS Newton Agent Dekstop App",
     p: "JavaScript + Electron + Powershell",
     link: ""
   },
@@ -74,7 +74,7 @@ export const WebDev = [
   },
   {
     img: Sma,
-    name: "SMA Website",
+    name: "Scholarship Decision Support System Website",
     p: "PHP + MySql",
     link: "",
   },
