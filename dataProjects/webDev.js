@@ -9,25 +9,32 @@ import Sims from "../app/assets/website/sims.jpg";
 import Mps1 from "../app/assets/website/mps/dashboard.jpg";
 import MpsElectron from "../app/assets/website/mps/electron/3.jpg"
 import MpsClient from "../app/assets/website/mps/client/dashboardclient.jpg"
+import AiDck from "../app/assets/website/dck-media/ai-dck.png"
 
 export const WebDev = [
   {
     img: Mps1,
     name: "Manage Print Service Admin Dashboard",
-    p: "Express.js + React.js + Shadcn + MySql",
+    p: "Express.js + WebSocket + React.js + Shadcn + MySql",
     link: "https://mpsnewton.com",
   },
   {
     img: MpsElectron,
     name: "MPS Newton Agent Dekstop App",
-    p: "JavaScript + Electron + Powershell",
+    p: "JavaScript + WebSocket + Electron + Powershell",
     link: ""
   },
   {
     img: MpsClient,
     name: "Manage Print Service Client Dashboard",
-    p: "React.js + Express.js + MySql",
+    p: "React.js + WebSocket + Express.js + MySql",
     link: "https://client.mpsnewton.com",
+  },
+  {
+    img: AiDck,
+    name: "SaaS architecture + AI integration",
+    p: "Next.js + TypeScript + Node.js + WebSocket",
+    link: "https://ai.dck-consulting.com",
   },
   {
     img: Plastic,

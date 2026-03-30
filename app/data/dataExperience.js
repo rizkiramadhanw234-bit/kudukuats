@@ -23,7 +23,7 @@ export const dataExperience = [
       "UI/UX & Architecture: Develop reusable component libraries, manage application state, and integrate RESTful APIs to ensure design consistency.",
       "Performance Tuning: Optimize loading speeds and Core Web Vitals through strategic code-splitting, caching, and image optimization.",
       "Technical Collaboration: Partner with business and creative leads to translate marketing requirements into functional, user-centric features.",
-      "Process Automation: Build Node.js utilities to automate content updates and streamline internal team workflows.",
+      "Client Solutions Development: Deliver end-to-end digital solutions for clients, including e-commerce platforms, full-scale company websites, CRM dashboards, and data analytics dashboards using Power BI.",
       "Creative Support: Support brand initiatives by producing product visuals, updating packaging, and curating social media content."
     ],
   },
