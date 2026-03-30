@@ -33,7 +33,7 @@ export const WebDev = [
   {
     img: AiDck,
     name: "SaaS architecture + AI integration",
-    p: "Next.js + TypeScript + Node.js + WebSocket",
+    p: "React.js + TypeScript + Node.js + WebSocket",
     link: "https://ai.dck-consulting.com",
   },
   {
