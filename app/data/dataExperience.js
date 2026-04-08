@@ -19,12 +19,12 @@ export const dataExperience = [
     h1: "DCK Media & Business Consulting –  Kuala Lumpur, Malaysia",
     h2: "Full-Stack Web Developer & Creative Designer  – Freelance (Remote Full-time) | Sep 2025 – Present",
     list: [
-      "Full-Stack Development: Build and maintain responsive company websites using the React.js and Node.js ecosystem (JavaScript/TypeScript).",
-      "UI/UX & Architecture: Develop reusable component libraries, manage application state, and integrate RESTful APIs to ensure design consistency.",
-      "Performance Tuning: Optimize loading speeds and Core Web Vitals through strategic code-splitting, caching, and image optimization.",
-      "Technical Collaboration: Partner with business and creative leads to translate marketing requirements into functional, user-centric features.",
-      "Client Solutions Development: Deliver end-to-end digital solutions for clients, including e-commerce platforms, full-scale company websites, CRM dashboards, and data analytics dashboards using Power BI.",
-      "Creative Support: Support brand initiatives by producing product visuals, updating packaging, and curating social media content."
+      "Full-Stack Development: Build and maintain responsive, data-driven web applications using React.js / Next.js and Node.js (JavaScript/TypeScript), including role-based dashboard systems for admin and merchant users.",
+      "UI/UX & Architecture: Design and develop reusable component systems and scalable frontend architecture, integrating RESTful APIs to deliver consistent and interactive dashboard experiences.",
+      "Performance Optimization: Improve application performance and Core Web Vitals through code-splitting, caching strategies, and optimized asset delivery for analytics-heavy dashboards.",
+      "Technical Collaboration: Work closely with business and creative teams to translate operational and marketing requirements into actionable dashboard features and data visualizations.",
+      "Client Solutions Development: Implement and integrate Power BI dashboards into role-based web applications, transforming raw business data into interactive visualizations such as sales performance, inventory tracking, and campaign analytics to support data-driven decision-making for different user roles.",
+      "Creative Support: Support brand initiatives by producing product visuals, updating packaging designs, and managing social media content."
     ],
   },
   {
