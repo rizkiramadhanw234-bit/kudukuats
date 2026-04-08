@@ -9,7 +9,8 @@ import Sims from "../app/assets/website/sims.jpg";
 import Mps1 from "../app/assets/website/mps/dashboard.jpg";
 import MpsElectron from "../app/assets/website/mps/electron/3.jpg"
 import MpsClient from "../app/assets/website/mps/client/dashboardclient.jpg"
-import AiDck from "../app/assets/website/dck-media/ai-dck.png"
+import AiDck from "../app/assets/website/dck-media/ai-dck.png";
+import DckDashboard from "../app/assets/website/dck-media/dck-dashboard.png";
 
 export const WebDev = [
   {
@@ -35,6 +36,12 @@ export const WebDev = [
     name: "SaaS architecture + AI integration",
     p: "React.js + TypeScript + Node.js + WebSocket",
     link: "https://ai.dck-consulting.com",
+  },
+  {
+    img: DckDashboard,
+    name: "DCK Media Dashboard & Analytics PowerBI Integration",
+    p: "React.js + Express.js + PowerBI + MySql",
+    link: "",
   },
   {
     img: Plastic,
