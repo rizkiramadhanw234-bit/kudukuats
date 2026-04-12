@@ -29,7 +29,7 @@ import { TbReportSearch } from "react-icons/tb";
 export const dataWebDev = [
   {
     icon: IoLogoJavascript,
-    p: "JavaScript",
+    p: "JavaScript (ES6+)",
   },
   {
     icon: SiTypescript,
