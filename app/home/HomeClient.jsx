@@ -150,10 +150,10 @@ export default function HomeClient() {
                 className="leading-6 sm:leading-7 text-center lg:text-left"
                 data-aos="fade-up"
               >
-                I’m a Full-Stack Web Developer with over 3 years of experience
-                building dynamic and responsive web applications using HTML,
-                CSS/Tailwind, JavaScript, TypeScript, React.js, Next.js, Node.js
-                (Express.js), and PHP.
+                I’m a Full-Stack Web Developer with 3 years of experience building web applications from frontend to backend.
+                I work with React.js, Next.js, JavaScript (ES6+) ,TypeScript and Tailwind CSS. On the backend,
+                I use Node.js (Express) and PHP, with MySQL for database management.
+                I also manage deployment on Linux servers using tools such as Docker, Nginx, and PM2.
               </p>
               <p
                 className="mt-4 sm:mt-5 leading-6 sm:leading-7 text-center lg:text-left"
@@ -163,7 +163,7 @@ export default function HomeClient() {
                 With over 5 years of experience in Graphic Design and Video
                 Editing, I bring a unique combination of Web Development, and
                 creative skills. Proven ability to deliver end-to-end
-                projects—from UI/UX planning, workflows, and development, to
+                projects from UI/UX planning, workflows, and development, to
                 deployment and content creation. Comfortable working
                 independently, collaboratively, onsite, or fully remote with
                 international clients.
