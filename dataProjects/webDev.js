@@ -51,7 +51,7 @@ export const WebDev = [
   },
   {
     img: Sims,
-    name: "Sims PPOB Website",
+    name: "Sims PPOB App",
     p: "React.js + Redux",
     link: "https://sims-ppob-blush.vercel.app/",
   },
