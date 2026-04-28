@@ -3,28 +3,29 @@ export const dataExperience = [
     h1: "PT. Sinar Mulia Makmur (Newton Technologi)  –  Jakarta, Indonesia",
     h2: "Full-stack Web Developer & DevOps | Nov 2025 – Present",
     list: [
-      "Built a complete Printer Monitoring System from zero to production including:",
-      "Backend API (Node.js/Express) with JWT auth and MySQL database.",
-      "Windows Agent (Electron + PowerShell) for printer discovery and monitoring.",
-      "Real-time Dashboard (Next.js) with WebSocket live updates.",
-      "Implemented SNMP polling to track ink levels across network printers.",
-      "Created auto-registration system where agents self-configure using license keys.",
-      "Solved production issues including token management, WebSocket reconnection, and cross-network communication.",
-      "Containerized apps with Docker and deployed on Linux servers (Nginx, PM2).",
-      "Provided IT support for hardware, software, networking, and office systems.",
-      "Developed internal web applications (PHP, Node.Js, React.Js)."
+      "Built and deployed a full-scale Printer Monitoring System from scratch to production, covering backend, agent, and real-time dashboard.",
+      "Developed RESTful APIs (Node.js/Express) with JWT authentication and MySQL for secure, scalable data handling.",
+      "Engineered a Windows Agent (Electron + PowerShell) for automated printer discovery, monitoring, and reporting.",
+      "Designed a real-time dashboard (Next.js + WebSocket) enabling live status updates across multiple devices and locations.",
+      "Implemented SNMP-based polling system to monitor printer metrics such as ink levels and device status.",
+      "Built an auto-registration mechanism using license keys, reducing manual setup and improving deployment efficiency.",
+      "Resolved critical production issues including token lifecycle handling, WebSocket reconnection strategies, and network communication across subnets.",
+      "Deployed applications on Linux servers using Nginx as reverse proxy and PM2 for process management and uptime reliability.",
+      "Provided cross-functional IT support covering networking, hardware troubleshooting, and system maintenance.",
+      "Developed internal tools using PHP, Node.js, and React.js to streamline operational workflows."
     ],
   },
   {
     h1: "DCK Media & Business Consulting –  Kuala Lumpur, Malaysia",
     h2: "Full-Stack Web Developer & Creative Designer  – Freelance (Remote Full-time) | Sep 2025 – Present",
     list: [
-      "Full-Stack Development: Build and maintain responsive, data-driven web applications using React.js / Next.js and Node.js (JavaScript/TypeScript), including role-based dashboard systems for admin and merchant users.",
-      "UI/UX & Architecture: Design and develop reusable component systems and scalable frontend architecture, integrating RESTful APIs to deliver consistent and interactive dashboard experiences.",
-      "Technical Collaboration: Work closely with business and creative teams to translate operational and marketing requirements into actionable dashboard features and data visualizations.",
-      "Client Solutions Development: Implement and integrate Power BI dashboards into role-based web applications, transforming raw business data into interactive visualizations such as sales performance, inventory tracking, and campaign analytics to support data-driven decision-making for different user roles.",
-      "Creative Support: Support brand initiatives by producing product visuals, updating packaging designs, and managing social media content.",
-      "Quality Assurance & Product Testing: Conduct end-to-end testing on multiple web platforms (DCKonnect ecosystem), identifying bugs, usability issues, and edge cases across features such as AI conversation flows, brand/shop pages, AI studio tools, user registration, and booking dashboards. Document findings through screen recordings and structured feedback to improve system stability and user experience."
+      "Developed role-based web applications (admin & merchant dashboards) using React.js / Next.js and Node.js (TypeScript).",
+      "Architected scalable frontend systems with reusable components and clean state management for maintainability.",
+      "Integrated RESTful APIs and third-party services to deliver interactive, data-driven user experiences.",
+      "Collaborated with business and marketing teams to translate requirements into data visualization and dashboard features.",
+      "Integrated Power BI dashboards into web platforms, enabling real-time insights for sales, inventory, and campaign performance.",
+      "Conducted end-to-end QA testing (DCKonnect platform), identifying bugs and usability issues across AI modules, dashboards, and user flows; delivered structured feedback with screen recordings.",
+      "Supported branding initiatives through UI/UX design, product visuals, and social media content creation."
     ],
   },
   {
