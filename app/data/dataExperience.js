@@ -31,6 +31,7 @@ export const dataExperience = [
     h1: "Qurious Media Singapore –  Singapore",
     h2: "Graphic Designer – Freelance (Remote Full-time) | April 2025 – Sep 2025",
     list: [
+      "Applied UI/UX principles to design user-friendly and visually engaging interfaces for web and digital platforms.",
       "Collaborated with clients and internal teams to meet design goals.",
       "Produced visual assets for print media: brochures, posters, flyers, business cards.",
       "Produced digital materials including web layouts, social media designs, and email campaign graphics.",
