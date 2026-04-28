@@ -18,7 +18,7 @@ export const dataCompanies = [
   },
   {
     image: Newton,
-    name: "Newton Technologi",
+    name: "Newton Technology",
     link: "https://www.newton.co.id/",
   },
   {

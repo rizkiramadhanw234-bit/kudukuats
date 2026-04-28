@@ -1,6 +1,6 @@
 export const dataExperience = [
   {
-    h1: "PT. Sinar Mulia Makmur (Newton Technologi)  –  Jakarta, Indonesia",
+    h1: "PT. Sinar Mulia Makmur (Newton Technology)  –  Jakarta, Indonesia",
     h2: "Full-stack Web Developer & DevOps | Nov 2025 – Present",
     list: [
       "Built and deployed a full-scale Printer Monitoring System from scratch to production, covering backend, agent, and real-time dashboard.",
