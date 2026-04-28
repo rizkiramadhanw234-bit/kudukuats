@@ -25,6 +25,7 @@ export const dataExperience = [
       "Collaborated with business and marketing teams to translate requirements into data visualization and dashboard features.",
       "Integrated Power BI dashboards into web platforms, enabling real-time insights for sales, inventory, and campaign performance.",
       "Conducted end-to-end QA testing (DCKonnect platform), identifying bugs and usability issues across AI modules, dashboards, and user flows; delivered structured feedback with screen recordings.",
+      "Deployment & Server Management: Managed application deployment on VPS, including installation and configuration of Node.js and MySQL, Linux server setup, firewall configuration using UFW, Nginx as a reverse proxy, and PM2 for process management to ensure application stability and 24/7 uptime.",
       "Supported branding initiatives through UI/UX design, product visuals, and social media content creation."
     ],
   },
