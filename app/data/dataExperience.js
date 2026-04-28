@@ -21,10 +21,10 @@ export const dataExperience = [
     list: [
       "Full-Stack Development: Build and maintain responsive, data-driven web applications using React.js / Next.js and Node.js (JavaScript/TypeScript), including role-based dashboard systems for admin and merchant users.",
       "UI/UX & Architecture: Design and develop reusable component systems and scalable frontend architecture, integrating RESTful APIs to deliver consistent and interactive dashboard experiences.",
-      "Performance Optimization: Improve application performance and Core Web Vitals through code-splitting, caching strategies, and optimized asset delivery for analytics-heavy dashboards.",
       "Technical Collaboration: Work closely with business and creative teams to translate operational and marketing requirements into actionable dashboard features and data visualizations.",
       "Client Solutions Development: Implement and integrate Power BI dashboards into role-based web applications, transforming raw business data into interactive visualizations such as sales performance, inventory tracking, and campaign analytics to support data-driven decision-making for different user roles.",
-      "Creative Support: Support brand initiatives by producing product visuals, updating packaging designs, and managing social media content."
+      "Creative Support: Support brand initiatives by producing product visuals, updating packaging designs, and managing social media content.",
+      "Quality Assurance & Product Testing: Conduct end-to-end testing on multiple web platforms (DCKonnect ecosystem), identifying bugs, usability issues, and edge cases across features such as AI conversation flows, brand/shop pages, AI studio tools, user registration, and booking dashboards. Document findings through screen recordings and structured feedback to improve system stability and user experience."
     ],
   },
   {
