@@ -44,7 +44,6 @@ export default function ExperienceClient() {
             <p
               className="text-white text-sm sm:text-base lg:text-lg text-center px-4 sm:px-6 md:px-8 lg:px-20 mx-auto max-w-6xl mt-6 sm:mt-8 md:mt-10 leading-6 sm:leading-7 md:leading-8"
               data-aos="fade-up"
-              data-aos-delay="100"
             >
               I bring a strong Computer Science foundation combined with over 5
               years of experience in graphic design and video editing allowing
@@ -59,7 +58,6 @@ export default function ExperienceClient() {
               href={"/projects"}
               className="px-4 py-2 text-white bg-cyan-400 items-center justify-center rounded-md mt-6 sm:mt-8 md:mt-10 hover:bg-cyan-300 hover:scale-101 transition-all duration-300 text-sm sm:text-base"
               data-aos="fade-up"
-              data-aos-delay="200"
             >
               See My Projects
             </Link>
@@ -91,14 +89,12 @@ export default function ExperienceClient() {
               <h2
                 className="text-cyan-400 text-xs md:text-lg mt-2 italic"
                 data-aos="fade-up"
-                data-aos-delay="100"
               >
                 {data.h2}
               </h2>
               <ul
                 className="list-disc pl-4 sm:pl-6 space-y-1 sm:space-y-2 text-white text-xs md:text-[1rem] mt-3 sm:mt-3"
                 data-aos="fade-up"
-                data-aos-delay="200"
               >
                 {data.list.map((li, index) => (
                   <li key={index}>{li}</li>
@@ -130,7 +126,6 @@ export default function ExperienceClient() {
             <div
               className="grid grid-cols-4 justify-center items-center gap-0 sm:gap-4 md:gap-6"
               data-aos="fade-up"
-              data-aos-delay="100"
             >
               {dataWebDev.map((data, index) => (
                 <div
@@ -162,7 +157,6 @@ export default function ExperienceClient() {
               <div
                 className="flex justify-center items-center gap-4 sm:gap-6 md:gap-8 lg:gap-20"
                 data-aos="fade-up"
-                data-aos-delay="100"
               >
                 {dataTech.map((data, index) => (
                   <div
@@ -195,7 +189,6 @@ export default function ExperienceClient() {
               <div
                 className="flex justify-center items-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-30"
                 data-aos="fade-up"
-                data-aos-delay="100"
               >
                 {dataDesign.map((data, index) => (
                   <div
@@ -227,7 +220,6 @@ export default function ExperienceClient() {
             <div
               className="flex justify-center items-center gap-0 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-30"
               data-aos="fade-up"
-              data-aos-delay="100"
             >
               {dataAdm.map((data, index) => (
                 <div

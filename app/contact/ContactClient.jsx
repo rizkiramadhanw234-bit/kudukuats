@@ -104,7 +104,6 @@ export default function ContactClient() {
           <p
             className="text-center text-white text-base px-10 sm:px-7 lg:text-lg mt-10"
             data-aos="fade-up"
-            data-aos-delay="100"
           >
             Let’s collaborate and turn your concept into a polished digital
             product. <br />A simple message can be the start of something great
@@ -115,7 +114,6 @@ export default function ContactClient() {
             <DialogTrigger asChild>
               <Button
                 data-aos="fade-up"
-                data-aos-delay="200"
                 className="mt-10 cursor-pointer px-3 py-5 bg-cyan-500 text-white hover:bg-cyan-400 hover:scale-101 transition duration-300"
               >
                 Let&apos;s Get Started

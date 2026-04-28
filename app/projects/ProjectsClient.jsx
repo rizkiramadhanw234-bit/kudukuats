@@ -109,7 +109,6 @@ export default function ProjectsClient() {
           <p
             className="text-center text-white text-sm lg:text-xl mt-10"
             data-aos="fade-up"
-            data-aos-delay="100"
           >
             Curious about what I’ve been working on? Take a look. <br />
             Wondering what I’ve built so far? Let’s dive in.
@@ -119,7 +118,6 @@ export default function ProjectsClient() {
             href={"#card-projects"}
             className="text-white text-md bg-cyan-500 py-2 px-4 mt-10 rounded-md hover:bg-cyan-400 hover:scale-101 transisiton duration-300"
             data-aos="fade-up"
-            data-aos-delay="200"
           >
             View All Projects
           </Link>
@@ -213,7 +211,6 @@ export default function ProjectsClient() {
           <div
             className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
             data-aos="fade-up"
-            data-aos-delay="100"
           >
             <Carousel setApi={setDesignApi} className="w-full lg:w-200">
               <CarouselContent>
@@ -261,7 +258,6 @@ export default function ProjectsClient() {
           <div
             className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
             data-aos="fade-up"
-            data-aos-delay="100"
           >
             <Carousel setApi={setLogoAPi} className="w-full lg:w-200">
               <CarouselContent>
@@ -313,7 +309,6 @@ export default function ProjectsClient() {
           <div
             className="flex flex-col items-center justify-center mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mt-4 sm:mt-5"
             data-aos="fade-up"
-            data-aos-delay="100"
           >
             <Carousel setApi={setBrandingAPi} className="w-full lg:w-200">
               <CarouselContent>
