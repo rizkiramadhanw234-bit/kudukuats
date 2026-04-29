@@ -157,7 +157,6 @@ export default function HomeClient() {
               <p
                 className="mt-4 sm:mt-5 leading-6 sm:leading-7 text-center lg:text-left"
                 data-aos="fade-up"
-                data-aos-delay="200"
               >
                 With over 5 years of experience in Graphic Design and Video
                 Editing, I bring a unique combination of Web Development, and
