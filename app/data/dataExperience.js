@@ -1,7 +1,19 @@
 export const dataExperience = [
   {
+    h1: "DCK Media & Business Consulting –  Kuala Lumpur, Malaysia",
+    h2: "Full-Stack Web Developer & Creative Designer  – Freelance (Remote Full-time) | Sep 2025 – Present",
+    list: [
+      "Developed role-based web applications (admin & merchant dashboards) using React.js, Next.js, and Node.js.",
+      "Built a company profile website end-to-end using Next.js, including a landing page for marketing purposes and showcasing company KPIs.",
+      "Integrated Power BI dashboards into the web platform using Next.js to provide real-time insights (sales and campaign performance).",
+      "Conducted end-to-end QA testing (DCKonnect), identified bugs and usability issues, and delivered structured feedback with screen recordings.",
+      "Deployment & Server Management: Managed application deployment on VPS, including installation and configuration of Node.js and MySQL, Linux server setup, firewall configuration using UFW, Nginx as a reverse proxy, and PM2 for process management to ensure application stability and 24/7 uptime.",
+      "Supported branding initiatives through UI/UX design, product visuals, and social media content creation.",
+    ],
+  },
+  {
     h1: "PT. Sinar Mulia Makmur (Newton Technology)  –  Jakarta, Indonesia",
-    h2: "Full-stack Web Developer & DevOps | Nov 2025 – Present",
+    h2: "Full-stack Web Developer & DevOps | April 2025 – April 2026",
     list: [
       "Built and deployed a full-scale Printer Monitoring System from scratch to production, covering backend, agent, and real-time dashboard.",
       "Developed RESTful APIs (Node.js/Express) with JWT authentication and MySQL for secure, scalable data handling.",
@@ -13,20 +25,6 @@ export const dataExperience = [
       "Deployed applications on Linux servers using Nginx as reverse proxy and PM2 for process management and uptime reliability.",
       "Provided cross-functional IT support covering networking, hardware troubleshooting, and system maintenance.",
       "Developed internal tools using PHP, Node.js, and React.js to streamline operational workflows."
-    ],
-  },
-  {
-    h1: "DCK Media & Business Consulting –  Kuala Lumpur, Malaysia",
-    h2: "Full-Stack Web Developer & Creative Designer  – Freelance (Remote Full-time) | Sep 2025 – Present",
-    list: [
-      "Developed role-based web applications (admin & merchant dashboards) using React.js / Next.js and Node.js (TypeScript).",
-      "Architected scalable frontend systems with reusable components and clean state management for maintainability.",
-      "Integrated RESTful APIs and third-party services to deliver interactive, data-driven user experiences.",
-      "Collaborated with business and marketing teams to translate requirements into data visualization and dashboard features.",
-      "Integrated Power BI dashboards into web platforms, enabling real-time insights for sales, inventory, and campaign performance.",
-      "Conducted end-to-end QA testing (DCKonnect platform), identifying bugs and usability issues across AI modules, dashboards, and user flows; delivered structured feedback with screen recordings.",
-      "Deployment & Server Management: Managed application deployment on VPS, including installation and configuration of Node.js and MySQL, Linux server setup, firewall configuration using UFW, Nginx as a reverse proxy, and PM2 for process management to ensure application stability and 24/7 uptime.",
-      "Supported branding initiatives through UI/UX design, product visuals, and social media content creation."
     ],
   },
   {
@@ -48,6 +46,7 @@ export const dataExperience = [
       "Built an E-Commerce website for a Micro, Small, and Medium Enterprises clients.",
       "Created food menu websites and multiple custom websites for clients.",
       "Delivered various websites for students final exams and thesis requirements.",
+      "Developed a web-based radio playlist application for broadcasters at RRI Cirebon.",
     ],
   },
   {
