@@ -17,9 +17,6 @@ export async function POST(req) {
       host: process.env.SMTP_HOST,
       port: Number(process.env.SMTP_PORT),
       secure: false,
-      tls: {
-        rejectUnauthorized: false,
-      },
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
@@ -58,6 +55,6 @@ export async function POST(req) {
     );
   } catch (error) {
     console.log("Email Error:", error);
-    return Response.json({ error: "Failed to send Email" }, { status: 500 });
+    return Response.json({ error: "Failed to send Email", err: error.message }, { status: 500 });
   }
 }

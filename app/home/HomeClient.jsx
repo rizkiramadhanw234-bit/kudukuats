@@ -158,8 +158,7 @@ export default function HomeClient() {
                 className="mt-4 sm:mt-5 leading-6 sm:leading-7 text-center lg:text-left"
                 data-aos="fade-up"
               >
-                With over 5 years of experience in Graphic Design and Video
-                Editing, I bring a unique combination of Web Development, and
+                With over 5 years of experience in Graphic Design, I bring a unique combination of Web Development, and
                 creative skills. Proven ability to deliver end-to-end
                 projects from UI/UX planning, workflows, and development, to
                 deployment and content creation. Comfortable working
