@@ -98,7 +98,7 @@ export default function HomeClient() {
               className="text-white text-base sm:text-lg md:text-2xl mt-3 sm:mt-4 md:mt-5 text-center px-2 sm:px-4"
               data-aos="fade-up"
             >
-              Full-Stack Web Developer <span className="text-cyan-500">|</span>{" "}
+              Full-Stack Web Developer <span className="text-cyan-500">·</span> React/Next.js <span className="text-cyan-500">·</span>{" "}
               Creative Designer
             </p>
 
