@@ -9,11 +9,11 @@ import Logo7 from "../app/assets/logo/7.jpg";
 export const LogoProjects = [
   {
     id: 0,
-    img: Logo7,
+      img: Logo1,
   },
   {
     id: 1,
-    img: Logo1,
+    img: Logo7,
   },
   {
     id: 2,
