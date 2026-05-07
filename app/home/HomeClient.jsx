@@ -42,7 +42,7 @@ export default function HomeClient() {
       title: "MPS Newton Agent Dekstop App",
       image: MPS3,
       p: "Electron + JavaScript + WebSocket + Powershell",
-      link: "",
+      link: "https://github.com/rizkiramadhanw234-bit/frontend-printer-dashboard/releases/download/v1/MPS.Newton.Agent.Setup.zip",
     },
   ];
 
