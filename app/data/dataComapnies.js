@@ -14,7 +14,7 @@ export const dataCompanies = [
   {
     image: Qurious,
     name: "Qurious Media Singapore",
-    link: "https://qurious-media.com/",
+    link: "https://www.qurious-group.com/",
   },
   {
     image: Newton,
