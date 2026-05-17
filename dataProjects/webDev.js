@@ -35,23 +35,17 @@ export const WebDev = [
     p: "Alpine.js + TypeScript",
     link: "https://ai.dck-consulting.com",
   },
+    {
+    img: Plastic,
+    name: "Plastic Movement",
+    p: "React.js + Zustand + Express.js + MySQL",
+    link: "https://www.plasticmvmt.com/",
+  },
   {
     img: DckDashboard,
     name: "DCK Media Dashboard & Analytics PowerBI Integration",
     p: "React.js + Express.js + PowerBI + MySQL",
     link: "",
-  },
-  {
-    img: Plastic,
-    name: "Plastic Website",
-    p: "React.js + Zustand + Express.js + MySQL",
-    link: "https://www.plasticmvmt.com/",
-  },
-  {
-    img: Sims,
-    name: "Sims PPOB App",
-    p: "React.js + Redux",
-    link: "https://sims-ppob-blush.vercel.app/",
   },
   {
     img: Rri,
@@ -69,12 +63,6 @@ export const WebDev = [
     img: Wedding,
     name: "Wedding Website",
     p: "React.js + Express.js",
-    link: "",
-  },
-  {
-    img: Sma,
-    name: "Scholarship Decision Support System Website",
-    p: "PHP + MySQL",
     link: "",
   },
 ];

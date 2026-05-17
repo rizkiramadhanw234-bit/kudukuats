@@ -19,17 +19,12 @@ import { SiAdobeillustrator } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobepremierepro } from "react-icons/si";
 import { SiCoreldraw } from "react-icons/si";
-
-// adminisrative
-import { TfiMicrosoftAlt } from "react-icons/tfi";
-import { IoDocumentsSharp } from "react-icons/io5";
-import { TbReportSearch } from "react-icons/tb";
-
+import { FaFigma } from "react-icons/fa";
 
 export const dataWebDev = [
   {
     icon: IoLogoJavascript,
-    p: "JavaScript (ES6+)",
+    p: "JavaScript",
   },
   {
     icon: SiTypescript,
@@ -88,6 +83,10 @@ export const dataDesign = [
     p: "Illustrator",
   },
   {
+    icon: FaFigma,
+    p: "Figma",
+  },
+  {
     icon: SiAdobephotoshop,
     p: "Photoshop",
   },
@@ -98,21 +97,5 @@ export const dataDesign = [
   {
     icon: SiCoreldraw,
     p: "Corel Draw",
-  },
-];
-
-// administrative
-export const dataAdm = [
-  {
-    icon: TfiMicrosoftAlt,
-    p: "Microsoft Office",
-  },
-  {
-    icon: IoDocumentsSharp,
-    p: "Document Management",
-  },
-  {
-    icon: TbReportSearch,
-    p: "Reporting",
   },
 ];

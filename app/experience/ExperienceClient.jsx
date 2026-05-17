@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Banner from "../assets/banner.jpg";
 import { dataExperience } from "../data/dataExperience";
-import { dataWebDev, dataTech, dataDesign, dataAdm } from "../data/dataSkills";
+import { dataWebDev, dataTech, dataDesign } from "../data/dataSkills";
 import Aurora from "../providers/Aurora";
 
 export default function ExperienceClient() {
@@ -207,32 +207,6 @@ export default function ExperienceClient() {
               className="border border-white mt-4 sm:mt-5"
               data-aos="fade-up"
             />
-          </div>
-
-          {/* Administrative Skills */}
-          <div className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-20 max-w-7xl mx-auto pb-8 sm:pb-10 md:pb-12 lg:pb-5">
-            <h2
-              className="text-lg sm:text-2xl font-bold text-white text-center pt-6 pb-4 sm:pt-8 md:pt-10"
-              data-aos="fade-up"
-            >
-              Administrative
-            </h2>
-            <div
-              className="flex justify-center items-center gap-0 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-30"
-              data-aos="fade-up"
-            >
-              {dataAdm.map((data, index) => (
-                <div
-                  key={index}
-                  className="flex flex-col gap-1 sm:gap-2 items-center justify-between mt-3 sm:mt-4 md:mt-5 w-1/3 sm:w-auto min-w-20 sm:min-w-[90px]"
-                >
-                  <data.icon className="text-cyan-400 text-2xl sm:text-3xl md:text-4xl cursor-pointer hover:text-cyan-300 hover:scale-110 transition duration-300" />
-                  <p className="text-white text-xs sm:text-sm text-center">
-                    {data.p}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
