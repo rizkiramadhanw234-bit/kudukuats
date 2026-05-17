@@ -4,6 +4,7 @@ import Newton from "../assets/companies/newton.jpg";
 import Kudukuats from "../assets/companies/kudukuats.jpg";
 import Bhk from "../assets/companies/bhk.jpg";
 import Vicky from "../assets/companies/vicky.jpg";
+import Deltaloka from "../assets/companies/deltaloka.jpg";
 
 export const dataCompanies = [
   {
@@ -20,6 +21,11 @@ export const dataCompanies = [
     image: Newton,
     name: "Newton Technology",
     link: "https://www.newton.co.id/",
+  },
+  {
+    image: Deltaloka,
+    name: "Deltaloka Konsultasi Indonesia",
+    link: "https://companieshouse.id/deltaloka-konsultasi-indonesia",
   },
   {
     image: Kudukuats,
