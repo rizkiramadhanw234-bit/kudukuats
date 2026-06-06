@@ -1,6 +1,7 @@
-import type { MetadataRoute } from "next";
+import { MetadataRoute } from "next";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+/** @type {() => MetadataRoute.Robots} */
+export default function sitemap() {
   const baseUrl = "https://www.kudukuats.web.id";
 
   return [
