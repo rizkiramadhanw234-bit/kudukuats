@@ -21,16 +21,16 @@ export const metadata = {
     "Kudukuats",
   ],
   authors: [
-    { name: "Muhammad Rizki Ramadhan", url: "https://kudukuats.my.id" },
+    { name: "Muhammad Rizki Ramadhan", url: "https://kudukuats.web.id" },
   ],
   creator: "Kudukuats | Muhammad Rizki Ramadhan",
   alternates: {
     canonical: "/contact",
   },
-  metadataBase: new URL("https://kudukuats.my.id"),
+  metadataBase: new URL("https://kudukuats.web.id"),
   openGraph: {
     type: "website",
-    url: "https://kudukuats.my.id",
+    url: "https://kudukuats.web.id",
     title: "Kudukuats",
     description: "Web Portfolio, Full Stack Developer.",
     images: "/kp.png",
