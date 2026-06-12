@@ -3,6 +3,7 @@ export const dataExperience = [
     h1: "DCK Media & Business Consulting – Kuala Lumpur, Malaysia",
     h2: "Full-Stack Web Developer & Creative Designer – Freelance (Remote Full-time) | Sep 2025 – Present",
     list: [
+      "Developed and deployed the Empire Cuisine restaurant website end-to-end from UI/UX design to production using Next.js, TypeScript, and shadcn/ui, with VPS deployment via Nginx, PM2, and full SEO/AEO optimization including Google Search Console setup.",
       "Developed role-based web applications (admin & merchant dashboards) using React.js, Next.js, and Node.js.",
       "Built a company profile website end-to-end using Next.js, including a landing page for marketing purposes and showcasing company KPIs.",
       "Integrated Power BI dashboards into the web platform using Next.js to provide real-time insights (sales and campaign performance).",

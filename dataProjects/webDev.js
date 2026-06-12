@@ -2,15 +2,20 @@ import Plastic from "../app/assets/website/plastik/1.jpg";
 import Wedding from "../app/assets/website/wedding/aa.jpg";
 import Vicky from "../app/assets/website/vicky_collection/home_page.jpg";
 import Rri from "../app/assets/website/rri/2.jpg";
-import Sma from "../app/assets/website/sma/landing_page.jpg";
-import Sims from "../app/assets/website/sims.jpg";
 import Mps1 from "../app/assets/website/mps/dashboard.jpg";
 import MpsElectron from "../app/assets/website/mps/electron/3.jpg"
 import MpsClient from "../app/assets/website/mps/client/dashboardclient.jpg"
 import AiDck from "../app/assets/website/dck-media/ai-dck.png";
 import DckDashboard from "../app/assets/website/dck-media/dck-dashboard.png";
+import EmpireCuisine from "../app/assets/website/dck-media/empire-cuisine.jpg";
 
 export const WebDev = [
+  {
+    img: EmpireCuisine,
+    name: "Empire Cuisine Restaurant",
+    p: "Next.js + TypeScript + Tailwind CSS + Zustand + Shadcn",
+    link: "https://empirecuisine.my/",
+  },
   {
     img: Mps1,
     name: "Manage Print Service Admin Dashboard",
@@ -35,7 +40,7 @@ export const WebDev = [
     p: "Alpine.js + TypeScript",
     link: "https://ai.dck-consulting.com",
   },
-    {
+  {
     img: Plastic,
     name: "Plastic Movement",
     p: "React.js + Zustand + Express.js + MySQL",
