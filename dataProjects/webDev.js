@@ -10,12 +10,12 @@ import DckDashboard from "../app/assets/website/dck-media/dck-dashboard.png";
 import EmpireCuisine from "../app/assets/website/dck-media/empire-cuisine.jpg";
 
 export const WebDev = [
-  {
-    img: EmpireCuisine,
-    name: "Empire Cuisine Restaurant",
-    p: "Next.js + TypeScript + Tailwind CSS + Zustand + Shadcn",
-    link: "https://empirecuisine.my/",
-  },
+  // {
+  //   img: EmpireCuisine,
+  //   name: "Empire Cuisine Restaurant",
+  //   p: "Next.js + TypeScript + Tailwind CSS + Zustand + Shadcn",
+  //   link: "https://empirecuisine.my/",
+  // },
   {
     img: Mps1,
     name: "Manage Print Service Admin Dashboard",
@@ -34,24 +34,24 @@ export const WebDev = [
     p: "React.js + WebSocket + Express.js + MySQL",
     link: "https://client.mpsnewton.com",
   },
-  {
-    img: AiDck,
-    name: "SaaS architecture + AI integration",
-    p: "Alpine.js + TypeScript",
-    link: "https://ai.dck-consulting.com",
-  },
+  // {
+  //   img: AiDck,
+  //   name: "SaaS architecture + AI integration",
+  //   p: "Alpine.js + TypeScript",
+  //   link: "https://ai.dck-consulting.com",
+  // },
   {
     img: Plastic,
     name: "Plastic Movement",
     p: "React.js + Zustand + Express.js + MySQL",
     link: "https://www.plasticmvmt.com/",
   },
-  {
-    img: DckDashboard,
-    name: "DCK Media Dashboard & Analytics PowerBI Integration",
-    p: "React.js + Express.js + PowerBI + MySQL",
-    link: "",
-  },
+  // {
+  //   img: DckDashboard,
+  //   name: "DCK Media Dashboard & Analytics PowerBI Integration",
+  //   p: "React.js + Express.js + PowerBI + MySQL",
+  //   link: "",
+  // },
   {
     img: Rri,
     name: "RRI Website",
