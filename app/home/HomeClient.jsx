@@ -17,7 +17,7 @@ import Aurora from "../providers/Aurora";
 
 import MPS1 from "../assets/website/mps/dashboard.jpg"
 import MPS2 from "../assets/website/mps/client/dashboardclient.jpg"
-import Plastic from "../app/assets/website/plastik/1.jpg";
+import Plastic from "../assets/website/plastik/1.jpg";
 
 
 export default function HomeClient() {
@@ -38,7 +38,7 @@ export default function HomeClient() {
     },
     {
       id: 3,
-      img: Plastic,
+      image: Plastic,
       name: "Plastic Movement",
       p: "React.js + Zustand + Express.js + MySQL",
       link: "https://www.plasticmvmt.com/",
