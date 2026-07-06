@@ -17,7 +17,8 @@ import Aurora from "../providers/Aurora";
 
 import MPS1 from "../assets/website/mps/dashboard.jpg"
 import MPS2 from "../assets/website/mps/client/dashboardclient.jpg"
-import EmpireCuisine from "../assets/website/dck-media/empire-cuisine.jpg"
+import Plastic from "../app/assets/website/plastik/1.jpg";
+
 
 export default function HomeClient() {
   const RecentProjects = [
@@ -37,10 +38,10 @@ export default function HomeClient() {
     },
     {
       id: 3,
-      title: "Empire Cuisine Restaurant",
-      image: EmpireCuisine,
-      p: "Next.js + TypeScript + Tailwind CSS + Zustand + Shadcn",
-      link: "https://empirecuisine.my/",
+      img: Plastic,
+      name: "Plastic Movement",
+      p: "React.js + Zustand + Express.js + MySQL",
+      link: "https://www.plasticmvmt.com/",
     },
   ];
 
