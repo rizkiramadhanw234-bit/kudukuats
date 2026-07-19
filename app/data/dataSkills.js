@@ -7,6 +7,7 @@ import { RiNodejsLine } from "react-icons/ri";
 import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypeorm } from "react-icons/si";
 
 // IT & Technical
 import { FaComputer } from "react-icons/fa6";
@@ -41,6 +42,10 @@ export const dataWebDev = [
   {
     icon: RiNodejsLine,
     p: "Node.js + Express",
+  },
+  {
+    icon: SiTypeorm,
+    p: "TypeORM",
   },
   {
     icon: FaPhp,
