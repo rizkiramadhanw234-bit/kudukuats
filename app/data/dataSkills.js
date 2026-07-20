@@ -8,6 +8,7 @@ import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypeorm } from "react-icons/si";
+import { TbBrandSocketIo } from "react-icons/tb";
 
 // IT & Technical
 import { FaComputer } from "react-icons/fa6";
@@ -46,6 +47,10 @@ export const dataWebDev = [
   {
     icon: SiTypeorm,
     p: "TypeORM",
+  },
+  {
+    icon: TbBrandSocketIo,
+    p: "WebSocket",
   },
   {
     icon: FaPhp,
