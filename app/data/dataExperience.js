@@ -3,12 +3,22 @@ export const dataExperience = [
     h1: "DCK Media & Business Consulting – Kuala Lumpur, Malaysia",
     h2: "Full-Stack Web Developer & Creative Designer – Freelance (Remote Full-time) | Sep 2025 – Present",
     list: [
+      "Built and deployed the Low Sugar Lab corporate & e-commerce web application end-to-end using Express.js, TypeORM, MySQL, Next.js, TanStack Query, shadcn/ui, TypeScript, with VPS deployment via Nginx and PM2, including Redis caching, JWT authentication, role-based admin access, rate limiting, and DeepSeek AI chat assistant integration.",
+
+      "Built the complete SCSME (Selangor Chamber of SME) multilingual membership and monetization platform using Next.js, TanStack Query, Express.js, TypeScript, TypeORM, and MySQL, including paid upload workflows, subscription billing, event ticketing with QR check-in, admin revenue dashboards, upload approval logic, and SEO/AEO optimization.",
+
       "Developed and deployed the Empire Cuisine restaurant website end-to-end from UI/UX design to production using Next.js, TypeScript, and shadcn/ui, with VPS deployment via Nginx, PM2, and full SEO/AEO optimization including Google Search Console setup.",
+
       "Developed role-based web applications (admin & merchant dashboards) using React.js, Next.js, and Node.js.",
+
       "Built a company profile website end-to-end using Next.js, including a landing page for marketing purposes and showcasing company KPIs.",
-      "Integrated Power BI dashboards into the web platform using Next.js to provide real-time insights (sales and campaign performance).",
+
+      "Integrated Power BI dashboards into web platforms using Next.js to provide real-time insights, including sales and campaign performance.",
+
       "Conducted end-to-end QA testing (DCKonnect), identified bugs and usability issues, and delivered structured feedback with screen recordings.",
-      "Deployment & Server Management: Managed application deployment on VPS, including installation and configuration of Node.js and MySQL, Linux server setup, firewall configuration using UFW, Nginx as a reverse proxy, and PM2 for process management to ensure application stability and 24/7 uptime.",
+
+      "Deployment & Server Management: Managed application deployment on VPS, including installation and configuration of Node.js and MySQL, Linux server setup, firewall configuration using UFW, Nginx as a reverse proxy, SSL configuration, and PM2 for process management to ensure application stability and 24/7 uptime.",
+
       "Supported branding initiatives through UI/UX design, product visuals, and social media content creation.",
     ],
   },

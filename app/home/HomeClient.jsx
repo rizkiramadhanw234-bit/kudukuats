@@ -97,7 +97,7 @@ export default function HomeClient() {
               className="text-white text-base sm:text-lg md:text-xl mt-3 sm:mt-4 md:mt-5 text-center px-2 sm:px-4"
               data-aos="fade-up"
             >
-              Full-Stack Web Developer <span className="text-cyan-500">·</span> React/Next.js <span className="text-cyan-500">· </span>
+              Full-Stack Engineer <span className="text-cyan-500">·</span> React/Next.js <span className="text-cyan-500">· </span>
               TypeScript <span className="text-cyan-500">· </span> Node.js <span className="text-cyan-500">· </span>
               TypeORM <span className="text-cyan-500">·</span> Creative Designer
             </p>
@@ -149,9 +149,9 @@ export default function HomeClient() {
                 className="leading-6 sm:leading-7 text-center lg:text-left"
                 data-aos="fade-up"
               >
-                I’m a Full-Stack Web Developer with 3 years of experience building web applications frontend and backend.
-                On the frontend, I work with React.js, Next.js, JavaScript (ES6+), TypeScript and Tailwind CSS. On the backend,
-                I use Node.js (Express.js), TypeORM and PHP, with MySQL for database management.
+                I’m a Full-Stack Engineer with 3 years of experience building web applications frontend and backend.
+                On the frontend, I work with React.js, Next.js, JavaScript, TypeScript and Tailwind CSS. On the backend,
+                I use Node.js, TypeORM with MySQL for database management.
                 I also manage deployment on Linux servers using tools such as Docker, Nginx, and PM2.
               </p>
               <p
