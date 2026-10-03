@@ -1,21 +1,25 @@
 import Plastic from "../app/assets/website/plastik/1.jpg";
-import Wedding from "../app/assets/website/wedding/aa.jpg";
-import Vicky from "../app/assets/website/vicky_collection/home_page.jpg";
 import Rri from "../app/assets/website/rri/2.jpg";
 import Mps1 from "../app/assets/website/mps/dashboard.jpg";
 import MpsElectron from "../app/assets/website/mps/electron/3.jpg"
 import MpsClient from "../app/assets/website/mps/client/dashboardclient.jpg"
 import AiDck from "../app/assets/website/dck-media/ai-dck.png";
-import DckDashboard from "../app/assets/website/dck-media/dck-dashboard.png";
+import scsmeImg from "../app/assets/website/dck-media/scsme.png";
 import EmpireCuisine from "../app/assets/website/dck-media/empire-cuisine.jpg";
 
 export const WebDev = [
-  // {
-  //   img: EmpireCuisine,
-  //   name: "Empire Cuisine Restaurant",
-  //   p: "Next.js + TypeScript + Tailwind CSS + Zustand + Shadcn",
-  //   link: "https://empirecuisine.my/",
-  // },
+  {
+    img: scsmeImg,
+    name: "Malaysia's SME business growth and opportunity platform",
+    p: "Express.js + Typescript + Next.js + Shadcn + MySQL",
+    link: "https://scsme.org.my",
+  },
+  {
+    img: EmpireCuisine,
+    name: "Empire Cuisine Restaurant",
+    p: "Next.js + TypeScript + Tailwind CSS + Zustand + Shadcn",
+    link: "https://empirecuisine.my/",
+  },
   {
     img: Mps1,
     name: "Manage Print Service Admin Dashboard",
@@ -57,17 +61,5 @@ export const WebDev = [
     name: "RRI Website",
     p: "PHP + MySQL",
     link: "https://appmusicrricrb.net/",
-  },
-  {
-    img: Vicky,
-    name: "Vicky Collection Store",
-    p: "PHP + MySQL",
-    link: "https://drive.google.com/file/d/17HJG8YzmTnNX0pWb9Q6LUWHQhR2jMtXb/view",
-  },
-  {
-    img: Wedding,
-    name: "Wedding Website",
-    p: "React.js + Express.js",
-    link: "",
   },
 ];

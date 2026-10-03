@@ -16,33 +16,35 @@ import { dataCompanies } from "../data/dataComapnies";
 import Aurora from "../providers/Aurora";
 
 import MPS1 from "../assets/website/mps/dashboard.jpg"
-import MPS2 from "../assets/website/mps/client/dashboardclient.jpg"
-import Plastic from "../assets/website/plastik/1.jpg";
+import scsmeImg from "../assets/website/dck-media/scsme.png"
+import EmpireCuisine from "../assets/website/dck-media/empire-cuisine.jpg";
 
 
 export default function HomeClient() {
   const RecentProjects = [
+
     {
       id: 1,
+      image: scsmeImg,
+      title: "Malaysia's SME business growth and opportunity platform",
+      p: "Express.js + Typescript + Next.js + Shadcn + MySQL",
+      link: "https://scsme.org.my",
+    },
+    {
+      id: 2,
+      image: EmpireCuisine,
+      title: "Empire Cuisine Restaurant",
+      p: "Next.js + TypeScript + Tailwind CSS + Zustand + Shadcn",
+      link: "https://empirecuisine.my/",
+    },
+    {
+      id: 3,
       title: "Manage Print Service Admin Dashboard",
       image: MPS1,
       p: "Express.js + WebSocket + React.js + Shadcn + MySQL",
       link: "https://mpsnewton.com",
     },
-    {
-      id: 2,
-      title: "Manage Print Service Client Dashboard",
-      image: MPS2,
-      p: "Express.js + WebSocket + React.js + MySQL",
-      link: "https://client.mpsnewton.com",
-    },
-    {
-      id: 3,
-      image: Plastic,
-      name: "Plastic Movement",
-      p: "React.js + Zustand + Express.js + MySQL",
-      link: "https://www.plasticmvmt.com/",
-    },
+
   ];
 
   // handle web carousel
