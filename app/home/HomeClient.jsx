@@ -15,9 +15,9 @@ import { dataWebDev } from "../data/dataSkills";
 import { dataCompanies } from "../data/dataComapnies";
 import Aurora from "../providers/Aurora";
 
-import MPS1 from "../assets/website/mps/dashboard.jpg"
 import scsmeImg from "../assets/website/dck-media/scsme.png"
 import EmpireCuisine from "../assets/website/dck-media/empire-cuisine.jpg";
+import Rri from "../assets/website/rri/2.jpg";
 
 
 export default function HomeClient() {
@@ -39,10 +39,10 @@ export default function HomeClient() {
     },
     {
       id: 3,
-      title: "Manage Print Service Admin Dashboard",
-      image: MPS1,
-      p: "Express.js + WebSocket + React.js + Shadcn + MySQL",
-      link: "https://mpsnewton.com",
+      title: "RRI Music Player",
+      image: Rri,
+      p: "PHP + MySQL",
+      link: "https://appmusicrricrb.net",
     },
 
   ];

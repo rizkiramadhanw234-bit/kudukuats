@@ -21,6 +21,12 @@ export const WebDev = [
     link: "https://empirecuisine.my/",
   },
   {
+    img: Rri,
+    name: "RRI Radio Music Player",
+    p: "PHP + MySQL",
+    link: "https://appmusicrricrb.net/",
+  },
+  {
     img: Mps1,
     name: "Manage Print Service Admin Dashboard",
     p: "Express.js + WebSocket + React.js + Shadcn + MySQL",
@@ -56,10 +62,5 @@ export const WebDev = [
   //   p: "React.js + Express.js + PowerBI + MySQL",
   //   link: "",
   // },
-  {
-    img: Rri,
-    name: "RRI Website",
-    p: "PHP + MySQL",
-    link: "https://appmusicrricrb.net/",
-  },
+
 ];
