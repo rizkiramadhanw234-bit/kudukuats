@@ -1,7 +1,7 @@
 export const dataExperience = [
   {
     h1: "DCK Media & Business Consulting – Kuala Lumpur, Malaysia",
-    h2: "Full-Stack Web Developer & Creative Designer – Freelance (Remote Full-time) | Sep 2025 – Present",
+    h2: "Full-Stack Web Developer – Remote Full-time | Sep 2025 – Present",
     list: [
       "Built and deployed the Low Sugar Lab corporate & e-commerce web application end-to-end using Express.js, TypeORM, MySQL, Next.js, TanStack Query, shadcn/ui, TypeScript, with VPS deployment via Nginx and PM2, including Redis caching, JWT authentication, role-based admin access, rate limiting, and DeepSeek AI chat assistant integration.",
 
@@ -19,7 +19,6 @@ export const dataExperience = [
 
       "Deployment & Server Management: Managed application deployment on VPS, including installation and configuration of Node.js and MySQL, Linux server setup, firewall configuration using UFW, Nginx as a reverse proxy, SSL configuration, and PM2 for process management to ensure application stability and 24/7 uptime.",
 
-      "Supported branding initiatives through UI/UX design, product visuals, and social media content creation.",
     ],
   },
   {
