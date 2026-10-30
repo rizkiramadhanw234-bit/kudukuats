@@ -4,11 +4,13 @@ import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiNodejsLine } from "react-icons/ri";
-import { FaPhp } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypeorm } from "react-icons/si";
 import { SiSocketdotio } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa6";
+import { FaDocker } from "react-icons/fa";
+import { SiNginx } from "react-icons/si";
 
 // IT & Technical
 import { FaComputer } from "react-icons/fa6";
@@ -42,7 +44,7 @@ export const dataWebDev = [
   },
   {
     icon: RiNodejsLine,
-    p: "Node.js + Express",
+    p: "Node.js",
   },
   {
     icon: SiTypeorm,
@@ -53,16 +55,24 @@ export const dataWebDev = [
     p: "WebSocket",
   },
   {
-    icon: FaPhp,
-    p: "PHP",
-  },
-  {
     icon: SiMysql,
     p: "MySQL",
   },
   {
     icon: RiTailwindCssFill,
     p: "Tailwind CSS",
+  },
+  {
+    icon: FaGitAlt,
+    p: "Git version",
+  },
+  {
+    icon: FaDocker,
+    p: "Docker",
+  },
+  {
+    icon: SiNginx,
+    p: "Nginx",
   },
 ];
 
