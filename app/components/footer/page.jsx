@@ -120,7 +120,7 @@ export default function Footer() {
 
       {/* COPYRIGHT */}
       <div className="border-t border-gray-700 mt-8 sm:mt-10 md:mt-12 pt-4 sm:pt-5 md:pt-6 text-center text-white text-xs sm:text-sm md:text-base">
-        © 2025 Muhammad Rizki Ramadhan. All rights reserved.
+        © 2026 Muhammad Rizki Ramadhan. All rights reserved.
       </div>
     </footer>
   );
